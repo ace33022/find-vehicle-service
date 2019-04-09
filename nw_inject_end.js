@@ -633,10 +633,10 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 										"messagingSenderId": "749991636936"
 									});
 							
-									/*
 									peer = new Peer(null, {
 										
 										"debug": 2,
+										"secure": false,
 										"config": {
 										
 											"iceServers": [
@@ -662,13 +662,6 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 												}
 											]
 										}
-									});
-									*/
-									
-									peer = new Peer(null, {
-										
-										"debug": 2,
-										"secure": false
 									});
 									
 									peer.on('disconnected', function() { 
