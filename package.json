@@ -1,0 +1,7 @@
+{
+	"main": "nw_main.js",
+	"name": "FindVehicleService",
+	"version": "0.0.1",
+	"description": "Find Vehicle Service", 
+	"author": "ace"
+}

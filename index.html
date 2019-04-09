@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant-TW" style="height: 100%;">
+
+  <head>
+
+    <meta http-equiv="Content-Language" content="zh-tw" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui" />
+
+    <meta name="theme-color" content="#FFFFFF" />
+
+		<meta name="robots" content="index,follow" />
+		
+    <meta name="keywords" content="計程車,TAXI" />
+    <meta name="description" content="計程車,TAXI" />
+
+    <meta name="author" content="ace33022" />
+		<meta name="force-login" content="N" />
+
+		<title>我要搭計程車</title>
+
+		<!-- <base href="/" /> -->
+		<!-- <base href="W:/Tool/Package/LangEnv/Java/apache-tomcat/webapps/ROOT/" /> -->
+
+		<link type="image/png" rel="icon" href="images/favicon.png" />
+		
+		<!--
+		<link type="text/css" rel="stylesheet" href="javascripts/Leaflet-1.3.3/dist/leaflet.css" />
+		<link type="text/css" rel="stylesheet" href="javascripts/Leaflet.EasyButton-2.3.0/src/easy-button.css" />
+		-->
+
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.3/leaflet.css" />
+		<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.EasyButton/2.3.0/easy-button.min.css" />
+		
+		<style type="text/css">
+		
+			.leaflet-div-icon-finder {
+			
+				background: blue;
+				
+				border-radius: 50%;
+				border: 4px solid rgba(255, 255, 255, 0.5);
+			}
+			
+			.leaflet-div-icon-taxi {
+			
+				background: yellow;
+				
+				border-radius: 50%;
+				border: 4px solid rgba(255, 255, 255, 0.5);
+			}
+			
+			.chatbox {
+			
+				z-index: 999;
+				
+				position: fixed;
+				
+				bottom: 0px;
+				right: 30px;
+				
+				width: 300px;
+				height: 400px;
+				
+				background-color: #FFFFFF;
+
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+				transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+				
+				-webkit-flex-direction: column;
+				flex-direction: column;
+			}
+
+			.chatbox--tray {
+			
+				bottom: -350px;
+			}
+
+			.chatbox .form-control:focus {
+			
+				border-color: #DCDCDC;
+			}
+
+			.chatbox__title, .chatbox__body {
+			
+				border-bottom: none;
+			}
+
+			.chatbox__title {
+			
+				cursor: pointer;
+
+				min-height: 50px;
+				padding-right: 10px;
+				
+				background-color: #1F2836;
+				
+				border-top-left-radius: 4px;
+				border-top-right-radius: 4px;
+				
+				display: -webkit-flex;
+				display: flex;
+
+				-webkit-align-items: center;
+				align-items: center;
+			}
+
+			.chatbox__title h5 {
+			
+				position: relative;
+				
+				color: white;
+				
+				height: 50px;
+				line-height: 50px;
+				
+				margin: 0px 0px 0px 15px;
+				padding-left: 20px;
+
+				-webkit-flex-grow: 1;
+				flex-grow: 1;
+			}
+
+			.chatbox__title h5:before {
+			
+				position: absolute;
+				
+				display: block;
+				content: '';
+				
+				top: 50%;
+				left: 0;
+				
+				width: 12px;
+				height: 12px;
+				
+				background: #4CAF50;
+				border-radius: 6px;
+
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+
+			.chatbox__title__close {
+			
+				cursor: pointer;
+				
+				width: 24px;
+				height: 24px;
+				
+				opacity: 0.5;
+
+				background-color: transparent;
+				
+				outline: 0;
+				border: none;
+				
+				-webkit-transition: opacity 200ms;
+				transition: opacity 200ms;
+			}
+
+			.chatbox__title__close:hover {
+			
+				opacity: 1;
+			}
+
+			.chatbox__title__close svg {
+			
+				vertical-align: middle;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-width: 1.2px;
+			}
+
+			.chatbox__body {
+			
+				background-color: #DCDCDC;
+				
+				padding: 15px;
+				border-top: 0;
+				border-left: 1px solid #DDDDDD;
+				border-right: 1px solid #DDDDDD;
+
+				-webkit-flex-grow: 1;
+				flex-grow: 1;
+			}
+
+			.chatbox__body__message {
+			
+				position: relative;
+			}
+
+			.chatbox__body__message img {
+			
+				position: absolute;
+				
+				width: 40px;
+				height: 40px;
+				
+				top: 15px;
+				
+				border-radius: 50%;
+				border: 2px solid #FCFCFC;
+			}
+
+			.chatbox__body__message--left img {
+			
+				left: -5px;
+			}
+
+			.chatbox__body__message--right img {
+			
+				right: -5px;
+			}
+
+			.chatbox__body__message--right .ul_section_full {
+			
+				font-size: 14px;
+				
+				text-align: left;
+				
+				background-color: #FFFFFF;
+				
+				margin-bottom: 15px;
+				margin-right: 15px;
+				margin-left: 35px;
+				
+				padding-top:15px;
+				padding-bottom: 5px;
+				padding-right: 30px;
+				
+				border-radius: 4px;
+				
+				-webkit-box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+				box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+			}
+			
+			.chatbox__body__message--left .ul_section_full {
+
+				font-size: 14px;
+				
+				text-align: left;
+				
+				background-color: #FFFFFF;
+				
+				margin-bottom: 15px;
+				margin-left: 15px;
+				margin-right: 35px;
+				
+				padding-top: 15px;
+				padding-bottom: 5px;
+				padding-left: 15px;
+				
+				border-radius: 4px;
+				
+				-webkit-box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+				box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+			}
+			
+			.chatbox_timing {
+			
+				font-size: 12px;
+				
+				position: absolute;
+				
+				top: 2px;
+				right: 35px;
+			}
+			
+			.chatbox_timing ul {
+			
+				padding: 0px;
+				margin: 0px;
+			}
+			
+			.chatbox_timing ul li {
+			
+				display: inline-block;
+				
+				list-style: none;
+				
+				margin-left: 3px;
+				margin-right: 3px;
+			}
+			
+			.chatbox__body__message--right .chatbox_timing {
+				
+				font-size: 12px;
+				
+				position: absolute;
+				
+				top: 2px;
+				left: 35px;
+			}
+			
+			.ul_msg {
+			
+				padding: 10px !important;
+			
+				padding: 0px;
+				margin: 0px
+			}
+			
+			.ul_msg li {
+			
+				display: block;
+				
+				list-style: none;
+			}
+			
+		</style>
+		
+		<!--
+    <script type="text/javascript" src="javascripts/tw/ace33022/NameSpace.js"></script>
+
+    <script type="text/javascript" src="javascripts/tw/ace33022/DefaultConfigurations.js"></script>
+		<script type="text/javascript" src="javascripts/Configurations.js"></script>
+		
+		<script type="text/javascript" src="javascripts/tw/ace33022/RequireJSConfig.js"></script>
+		-->
+		
+		<script type="text/javascript" src="https://ace33022.github.io/tw/ace33022/NameSpace.js"></script>
+
+    <script type="text/javascript" src="https://ace33022.github.io/tw/ace33022/DefaultConfigurations.js"></script>
+    <script type="text/javascript" src="https://ace33022.github.io/tw/Configurations.js"></script>
+		
+    <script type="text/javascript" src="https://ace33022.github.io/tw/ace33022/RequireJSConfig.js"></script>
+		
+		<!--
+		<script src="javascripts/peerjs-0.3.16/dist/peer.js"></script>
+		-->
+		
+		<!--
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.16/peer.min.js"></script>
+		-->
+  </head>
+
+	<!--
+		--
+    -- @description Find Vehicle Service
+    --
+    -- @version 2019/02/25 初始版本。
+    --
+    -- @author ace
+    --
+		-->
+  <body style="height: 100%;"></body>
+</html>

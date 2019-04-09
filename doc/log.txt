@@ -1,0 +1,1086 @@
+﻿
+
+@description Find Vehicle Service
+@comment http://127.0.0.1:8887/
+@comment http://localhost:8887/
+@comment https://ace33022.github.io/find-vehicle-service/
+
+@comment chrome://webrtc-internals
+
+@comment peer.js 0.3.16版本可以正常使用！在github上提供的最後版本，在CDN上的0.3.20以上版本無法在Chrome上播放Audio！
+
+@see {@link https://www.taxigo.com.tw/|TaxiGo : 用科技改變你的交通方式}
+
+@comment http://www.bitrebels.com/wp-content/uploads/2011/02/Original-Facebook-Geek-Profile-Avatar-1.jpg
+@comment https://www.flaticon.com/free-icon/child-head-with-smiling-face_9415
+
+@see {@link https://www.w3.org/|World Wide Web Consortium (W3C)}
+@see {@link https://tools.ietf.org/|IETF Tools}
+
+@see {@link https://findicons.com/|免費圖示和向量檔案}
+@see {@link https://www.freepik.com/|Free Vectors, Photos and PSD Downloads | Freepik}
+@see {@link https://icons8.com/|Download free icons, music, stock photos, vectors}
+@see {@link https://www.flaticon.com/|Free vector icons - SVG, PSD, PNG, EPS & Icon Font - Thousands of free icons}
+
+@see {@link https://blog.gtwang.org/web-development/minimizing-http-request-using-data-uri/|使用 DATA URI 將圖片以 Base64 編碼並內崁至網頁中，加速載入速度 - G. T. Wang}
+@see {@link https://css-tricks.com/data-uris/|Data URIs | CSS-Tricks}
+
+@see {@link https://ezgif.com/|Animated GIF editor and GIF maker}
+
+@see {@link http://antimatter15.com/whammy/clock.html|antimatter15.com/whammy/clock.html}
+@see {@link https://github.com/antimatter15/whammy|antimatter15/whammy: A real time javascript webm encoder based on a canvas hack}
+
+@see {@link https://github.com/antimatter15/jsgif|antimatter15/jsgif: Save a HTML5 Canvas to GIF and Animations. A port of as3gif GIFPlayer to JS}
+@see {@link https://antimatter15.com/|stuff by kevin kwok}
+@see {@link https://code.google.com/archive/p/as3gif/|Google Code Archive - Long-term storage for Google Code Project Hosting.}
+
+@see {@link https://leafletjs.com/|Leaflet - a JavaScript library for interactive maps}
+@see {@link https://leafletjs.com/reference-1.4.0.html|Documentation - Leaflet - a JavaScript library for interactive maps}
+
+@see {@link https://leafletjs.com/examples/layers-control/|Layer Groups and Layers Control - Leaflet - a JavaScript library for interactive maps}
+@see {@link https://leafletjs.com/examples/custom-icons/|Markers With Custom Icons - Leaflet - a JavaScript library for interactive maps}
+	
+@see {@link https://www.tutorialspoint.com/leafletjs|LeafletJS Tutorial}
+	
+@see {@link http://cliffcloud.github.io/Leaflet.EasyButton/v1/|Leaflet.EasyButton}
+@see {@link http://danielmontague.com/projects/easyButton.js/v2/examples/|EasyButton Demo | Daniel Montague}
+@see {@link https://github.com/CliffCloud/Leaflet.EasyButton|CliffCloud/Leaflet.EasyButton: leaflet control buttons with icons and callbacks}
+
+@see {@link http://filipzava.github.io/leaflet-control-bar/|leaflet-control-bar}
+@see {@link https://github.com/filipzava/leaflet-control-bar|filipzava/leaflet-control-bar: A simple leaflet control bar plugin.}
+
+@see {@link http://esri.github.io/esri-leaflet/|Esri Leaflet}
+@see {@link https://github.com/Esri/esri-leaflet|Esri/esri-leaflet: A lightweight set of tools for working with ArcGIS services in Leaflet.}
+
+@see {@link https://github.com/w8r/Leaflet.Tooltip/|w8r/Leaflet.Tooltip: Movable tooltips for leaflet 1.0.0}
+@see {@link http://w8r.name/Leaflet.Tooltip/example/|Leaflet.Tooltip}
+
+@see {@link https://codepen.io/mmsmdali/pen/KqjNPN|Marker, Popup, Tooltip using Leaflet}
+
+@see {@link https://stackoverflow.com/questions/47697215/trigger-click-on-leaflet-marker|javascript - Trigger click on leaflet marker - Stack Overflow}
+
+@see {@link https://imququ.com/post/html5-live-player-1.html|HTML5 视频直播（一） | JerryQu 的小站}
+@see {@link https://imququ.com/post/html5-live-player-2.html|HTML5 视频直播（二） | JerryQu 的小站}
+@see {@link https://imququ.com/post/html5-live-player-3.html|HTML5 视频直播（三） | JerryQu 的小站}
+
+@see {@link https://webrtc.org/|WebRTC Home | WebRTC}
+@see {@link https://webrtc.org/testing/|Testing | WebRTC}
+@see {@link https://test.webrtc.org/|WebRTC Troubleshooter}
+
+@see {@link https://github.com/webrtc|WebRTC}
+@see {@link https://github.com/webrtc/samples|webrtc/samples: WebRTC Web demos and samples}
+
+@see {@link https://webrtc.github.io/samples/|WebRTC samples}
+@see {@link https://webrtc.github.io/samples/src/content/peerconnection/trickle-ice/|Trickle ICE}
+
+@see {@link https://webrtc.github.io/samples/src/content/peerconnection/webaudio-output/|Peer connection as input to Web Audio}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/peerconnection/webaudio-output|samples/src/content/peerconnection/webaudio-output at gh-pages · webrtc/samples}
+
+@see {@link https://webrtc.github.io/samples/src/content/getusermedia/audio/|gUM audio}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/getusermedia/audio|samples/src/content/getusermedia/audio at gh-pages · webrtc/samples}
+
+@see {@link https://webrtc.github.io/samples/src/content/devices/input-output/|Select audio and video sources}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/devices/input-output|samples/src/content/devices/input-output at gh-pages · webrtc/samples}
+
+@see {@link https://webrtc.github.io/samples/src/content/peerconnection/audio/|Peer connection: audio only}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/peerconnection/audio|samples/src/content/peerconnection/audio at gh-pages · webrtc/samples}
+
+@see {@link https://webrtc.github.io/samples/src/content/peerconnection/webaudio-input/|Web Audio input}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/peerconnection/webaudio-input|samples/src/content/peerconnection/webaudio-input at gh-pages · webrtc/samples}
+
+@see {@link https://webrtc.github.io/samples/src/content/getusermedia/record/|MediaStream Recording}
+@see {@link https://github.com/webrtc/samples/tree/gh-pages/src/content/getusermedia/record|samples/src/content/getusermedia/record at gh-pages · webrtc/samples}
+
+@see {@link https://www.w3.org/TR/webrtc/|WebRTC 1.0: Real-time Communication Between Browsers}
+@see {@link https://w3c.github.io/webrtc-pc/|WebRTC 1.0: Real-time Communication Between Browsers}
+@see {@link https://dvcs.w3.org/hg/audio/raw-file/tip/streams/StreamProcessing.html|MediaStream Processing API}
+
+@see {@link https://zh.wikipedia.org/zh-tw/WebRTC|WebRTC - 維基百科，自由的百科全書}
+
+@see {@link https://codelabs.developers.google.com/codelabs/webrtc-web/|Real time communication with WebRTC}
+@see {@link https://lincolnloop.com/blog/what-webrtc/|What is WebRTC? | Lincoln Loop}
+
+@see {@link https://webrtchacks.com/|webrtcHacks - Guides and information for WebRTC developers}
+
+@see {@link https://tools.ietf.org/html/draft-ietf-rtcweb-jsep-00|draft-ietf-rtcweb-jsep-00 - JavaScript Session Establishment Protocol}
+@see {@link https://en.wikipedia.org/wiki/Session_Description_Protocol|Session Description Protocol - Wikipedia}
+
+@see {@link https://www.youtube.com/watch?v=HCE3S1E5UwY|Google: What's next for WebRTC? - YouTube}
+@see {@link https://docs.google.com/presentation/d/1CjuTaY2J9P5xrFDtRCh6VmS7Iw2UBbm-JEwzCHQCYkE/edit#slide=id.g521d01055_1_0|Google I/O 2015: Video chat for the Web, Android and iOS - Google 簡報}
+
+@see {@link https://www.tutorialspoint.com/webrtc/webrtc_voice_demo.htm|WebRTC Voice Demo}
+
+@see {@link https://developer.mozilla.org/zh-TW/docs/Web/API/WebRTC_API|WebRTC API - Web APIs | MDN}
+@see {@link https://www.html5rocks.com/en/tutorials/webrtc/basics/|Getting Started with WebRTC - HTML5 Rocks}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection|RTCPeerConnection - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection/createOffer|RTCPeerConnection.createOffer() - Web APIs | MDN}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/RTCIceServer|RTCIceServer - Web APIs | MDN}
+
+@see {@link https://testrtc.com/|Homepage • testRTC}
+@see {@link https://testrtc.com/webrtc-api-trace/|Your best WebRTC debugging buddy? The webrtc-internals API trace • testRTC}
+
+@see {@link https://appr.tc/|AppRTC}
+@see {@link https://github.com/webrtc/apprtc|webrtc/apprtc: The video chat demo app based on WebRTC. This project is currently on HOLD with minimal maintenance.}
+
+@see {@link https://simpl.info/rtcpeerconnection/|RTCPeerConnection}
+@see {@link https://simpl.info/rtcdatachannel/|RTCDataChannel}
+
+@see {@link https://simpl.info/webrtcwebaudio/|Web Audio with RTCPeerConnection}
+@see {@link https://github.com/samdutton/simpl/tree/gh-pages/webrtcwebaudio|simpl/webrtcwebaudio at gh-pages · samdutton/simpl}
+
+@see {@link https://github.com/webrtc/adapter|webrtc/adapter: READ ONLY FORK: Shim to insulate apps from spec changes and prefix differences. Latest adapter.js release:}
+@see {@link https://bloggeek.me/webrtc-adapter-js/|What is WebRTC adapter.js and Why do we Need it? • BlogGeek.me}
+
+@see {@link https://github.com/agilityfeat/webrtc-audio-demo|agilityfeat/webrtc-audio-demo: A simple demo app for webrtc audio}
+
+@see {@link https://webrtchacks.com/chrome-extension/|How to use WebRTC and Chrome Extensions to Call a Browser When it is Not Open (Konstantin Goncharuk) - webrtcHacks}
+@see {@link https://github.com/kooler/webrtc-in-chrome-extension/|kooler/webrtc-in-chrome-extension: WebRTC in Chrome extension demo}
+@see {@link https://videolink2me.com/start|Online video calls in browser for free - Videolink2me}
+
+@see {@link https://github.com/jesup/nightly-gupshup|jesup/nightly-gupshup: WebRTC on Firefox Nightly video chat demo app}
+@see {@link https://github.com/jesup/nightly-gupshup/blob/master/static/js/chat.js|nightly-gupshup/chat.js at master · jesup/nightly-gupshup}
+
+@see {@link https://github.com/node-webrtc/node-webrtc|node-webrtc/node-webrtc: node-webrtc provides Node.js bindings to WebRTC M73.}
+@see {@link https://github.com/node-webrtc/node-webrtc-examples|node-webrtc/node-webrtc-examples: MediaStream and RTCDataChannel examples using node-webrtc}
+
+@see {@link https://github.com/chrisjohndigital/TutorRoom|chrisjohndigital/TutorRoom: Node.js HTML5 video capture, peer-to-peer video and filesharing application. Interested in developing multi-threaded synchronous collaborative learning spaces or building a language lab, TutorRoom will help get you started.}
+
+@see {@link https://webrtc.org/blog/2011/07/11/webrtc-improvement-optimized-aec-acoustic-echo-cancellation.html|WebRTC Improvement: Optimized AEC (Acoustic Echo Cancellation) | WebRTC}
+
+@see {@link https://blog.sessionstack.com/how-javascript-works-webrtc-and-the-mechanics-of-peer-to-peer-connectivity-87cc56c1d0ab|How JavaScript works: WebRTC and the mechanics of peer to peer networking}
+@see {@link https://webrtchacks.com/hangout-analysis-philipp-hancke/|How does Hangouts use WebRTC? webrtc-internals analysis - webrtcHacks}
+@see {@link https://hackernoon.com/how-to-build-a-video-call-voice-chat-app-in-webrtc-using-javascript-node-js-d256d434acbc|How to Build a Video Call & Voice Chat App in WebRTC Using Javascript/node.js?}
+@see {@link https://dzone.com/articles/how-to-create-your-first-webrtc-application|Creating Your First WebRTC Application - DZone Mobile}
+
+@see {@link https://naurudao.blogspot.com/2016/07/webrtc.html|WebRTC 筆記 ~ 諾魯島}
+@see {@link https://blog.gtwang.org/web-development/webrtc-media-stream/|WebRTC 入門教學（一）：多媒體影像串流擷取 - G. T. Wang}
+@see {@link https://blog.gtwang.org/web-development/webrtc-peer-connection/|WebRTC 入門教學（二）：以 RTCPeerConnection 建立 Peer-to-peer 連線 - G. T. Wang}
+@see {@link http://anubhav83.in/2016/10/07/webrtc-serve-localhost-https/|WebRTC : Serve Localhost Over HTTPS - Anubhav Agarwal}
+
+@see {@link http://no2don.blogspot.com/2017/03/webrtc-webrtc-p2p1-server.html|[WebRTC] 透過 WebRTC 做到P2P對談(1) – Server篇 | 當麻許的超技八}
+@see {@link http://blog.jln.co/android-firebase-+-webrtc-on-android/|[Android] Firebase + WebRTC on Android – Le murmure de Julian}
+
+@see {@link https://github.com/julianshen/apprtc-android-demo|julianshen/apprtc-android-demo}
+
+@see {@link http://blog.vline.com/post/52644825765/tunneling-webrtc-over-tcp-and-why-it-matters|vLine Blog - WebRTC Video Chat - Tunneling WebRTC over TCP (and why it matters)}
+@see {@link http://blog.vline.com/post/63765098884/webrtc-if-its-p2p-why-do-i-need-a-server|vLine Blog - WebRTC Video Chat - WebRTC: If it’s P2P, why do I need a server?}
+
+@see {@link https://github.com/googlecodelabs/webrtc-web/issues/91|Remote video is no not displaying on Chrome 69 of Window 10 and Safari of iPad 11.4.1 · Issue #91 · googlecodelabs/webrtc-web}
+
+@see {@link https://stackoverflow.com/questions/48849218/webrtc-voice-chat-using-firebase|java - WebRTC Voice Chat Using Firebase - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/41235917/voice-calls-over-a-chat-app-using-firebase|Voice calls over a Chat app using Firebase - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/21271297/webrtc-with-web-audio|firefox - WebRTC with web audio - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/16724414/microphone-activity-level-of-webrtc-mediastream|javascript - Microphone activity level of WebRTC MediaStream - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/30082362/proper-way-to-get-the-remote-audio-levels-of-a-media-stream-in-order-to-display|javascript - Proper way to get the remote audio levels of a media stream in order to display audio levels visually? - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/18852776/web-audio-api-and-webrtc|Web Audio API and WebRTC - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/19950937/visualize-mediastream-which-is-coming-from-a-remote-peer-connection|javascript - visualize mediastream which is coming from a remote peer connection - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/18435233/webrtc-firefox-to-chrome-video-call-not-working|signaling - WebRTC Firefox to Chrome video call not working - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/33548517/webrtc-chrome-microphone-not-working|javascript - WebRTC Chrome microphone not working - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/54514273/webrtc-via-web-audio-api-silent-on-google-chrome|javascript - WebRTC via Web Audio API silent on google Chrome - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/41784137/webrtc-doesnt-work-with-audiocontext|javascript - WebRTC doesn't work with AudioContext - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/37333900/webrtc-datachannel-working-in-firefox-but-not-chrome|javascript - WebRTC DataChannel: working in Firefox but not Chrome - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/42617946/webrtc-cannot-see-remote-stream-in-firefox-but-works-in-chrome|Webrtc: Cannot see remote stream in Firefox but works in Chrome - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/26431333/send-mediastream-object-with-web-audio-effects-over-peerconnection|javascript - Send MediaStream object with Web Audio effects over PeerConnection - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/26111693/rtcpeerconnection-media-stream-working-in-firefox-but-not-chrome|RTCPeerConnection media stream working in firefox but not chrome - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/53325793/no-audio-from-webrct-stream-on-chrome-without-audio-tag|javascript - No audio from WebRCT stream on chrome without audio tag - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/24287054/chrome-wont-play-webaudio-getusermedia-via-webrtc-peer-js|javascript - Chrome won't play WebAudio getUserMedia via WebRTC/Peer.js - Stack Overflow}
+
+@see {@link http://numb.viagenie.ca/|Numb STUN/TURN Server}
+@see {@link http://www.turnservers.com/|turnservers.com}
+
+@see {@link https://gist.github.com/yetithefoot/7592580|STUN+TURN servers list}
+
+@see {@link https://xirsys.com/|WebRTC TURN Server Cloud Provider - Xirsys}
+@see {@link http://turnserver.open-sys.org/downloads/|Index of /downloads}
+
+@see {@link https://code.google.com/archive/p/rfc5766-turn-server/|Google Code Archive - Long-term storage for Google Code Project Hosting.}
+@see {@link https://github.com/coturn/rfc5766-turn-server/|coturn/rfc5766-turn-server: Import of https://code.google.com/p/rfc5766-turn-server/}
+@see {@link https://github.com/coturn/coturn|coturn/coturn: coturn TURN server project}
+
+@see {@link https://ithelp.ithome.com.tw/articles/10209725|30-29之 WebRTC 的 P2P 打洞術 ( ICE ) - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天}
+
+@see {@link https://stackoverflow.com/questions/22233980/implementing-our-own-stun-turn-server-for-webrtc-application/35452566|Implementing our own STUN/TURN server for WebRTC Application - Stack Overflow}
+
+@see {@link https://ngrok.com/|ngrok - secure introspectable tunnels to localhost}
+
+@see {@link https://webrtc.ventures/|WebRTC.ventures - Custom Web & Mobile Apps for Broadcasting, Medical, and More}
+@see {@link https://webrtc.ventures/2017/10/can-you-hear-me-now-a-webrtc-audio-demo/|Can You Hear Me Now?... A WebRTC Audio Demo.}
+
+@see {@link https://apirtc.com/|ApiRTC | Cloud-Based WebRTC API - WebRTC PaaS}
+@see {@link https://github.com/apizee/ApiRTC-mobile|apizee/ApiRTC-mobile: Example of how to use ApiRTC into mobile application}
+
+@see {@link https://www.pubnub.com/|PubNub: Making Realtime Innovation Simple | PubNub}
+@see {@link https://github.com/pubnub|PubNub}
+@see {@link https://www.pubnub.com/docs|Developer Tutorials & SDKs for building realtime apps | PubNub}
+@see {@link https://www.pubnub.com/docs/chat-engine/getting-started|ChatEngine Framework - Setup | PubNub}
+
+@see {@link https://www.pubnub.com/blog/webrtc-video-chat-engine-plugin-video-calling-chat/|Integrating Video Calling in Chat with WebRTC and ChatEngine | PubNub}
+@see {@link https://github.com/pubnub/chat-engine|pubnub/chat-engine: Object oriented event emitter based framework for building chat applications in Javascript.}
+
+@see {@link https://www.kurento.org/|Kurento}
+@see {@link https://github.com/Kurento|Kurento}
+@see {@link https://doc-kurento.readthedocs.io/en/6.9.0/|Welcome to Kurento — Kurento 6.9.0 documentation}
+
+@see {@link https://www.sipjs.com/|SIP Signaling JavaScript Library for WebRTC Developers | SIP.js}
+@see {@link https://github.com/onsip/sip.js|onsip/SIP.js: A simple, intuitive, and powerful JavaScript signaling library}
+
+@see {@link https://freeswitch.com/|Home - FreeSWITCH}
+@see {@link https://developer.onsip.com/|OnSIP for Developers}
+
+@see {@link https://www.wowza.com/|Wowza Live Streaming Software - Best Cloud Platform for Live Media}
+@see {@link https://www.wowza.com/low-latency/webrtc-streaming-software|WebRTC Server Software for Live Streaming | Wowza}
+
+@see {@link https://www.oodlestechnologies.com/|SaaS Web & Mobile App Development | Blockchain Development Services - Oodles Technologies}
+@see {@link https://www.oodlestechnologies.com/webrtc-service-providers|WebRTC Service Providers}
+
+@see {@link https://www.dialogic.com/|Cloud-Optimized Real-Time Communications Solutions | Dialogic}
+
+@see {@link https://tokbox.com/|OpenTok | WebRTC Platform for Video, Voice and Messaging from TokBox}
+
+@see {@link https://www.peer5.com/|Peer5 - The Serverless P2P CDN For Video Live Streaming}
+
+@see {@link https://bitbucket.org/psrikanta/webrtc|psrikanta / WebRTC — Bitbucket}
+
+@see {@link https://github.com/domschiener/peered|domschiener/peered: Peered: P2P Gaming with Bets. Powered by WebRTC and Ethereum}
+
+@see {@link https://peerjs.com/|PeerJS - Simple peer-to-peer with WebRTC}
+@see {@link https://github.com/peers|PeerJS}
+@see {@link https://github.com/peers/peerjs|peers/peerjs: Peer-to-peer data in the browser.}
+@see {@link https://github.com/peers/peerjs-server|peers/peerjs-server: Server for PeerJS}
+@see {@link https://peerjs.com/docs.html|PeerJS Documentation}
+
+@see {@link https://cdnjs.com/libraries/peerjs|peerjs - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+@comment https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.16/peer.min.js
+
+@see {@link https://www.jsdelivr.com/package/npm/peerjs|peerjs CDN by jsDelivr - A CDN for npm and GitHub}
+@comment https://cdn.jsdelivr.net/npm/peerjs@0.3.16/dist/peer.min.js
+@comment https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js
+@comment https://cdn.jsdelivr.net/npm/peerjs@0.3.24/dist/peerjs.min.js
+
+@see {@link https://gist.github.com/1000ch/8054185|WebRTC video chat with PeerJS.}
+
+@see {@link https://github.com/iakashpaul/peerjsipx|iakashpaul/peerjsipx}
+
+@see {@link https://github.com/Bohmaster/real-time-audio-chat|Bohmaster/real-time-audio-chat}
+
+@see {@link https://github.com/nwah/peerjs-audio-chat|nwah/peerjs-audio-chat: WebRTC / PeerJS audio chat demo}
+@see {@link http://wern-ancheta.com/blog/2015/05/03/implementing-audio-calls-with-peerjs/|Implementing Audio Calls with PeerJS - Wern Ancheta}
+
+@see {@link https://github.com/mccxiv/paper-peerjs-stream|mccxiv/paper-peerjs-stream}
+@see {@link http://mccxiv.github.io/paper-peerjs-stream/paper-peerjs-stream/|paper-peerjs-stream}
+
+@see {@link https://ourcodeworld.com/articles/read/496/how-to-create-a-videochat-with-webrtc-using-peerjs-and-node-js|How to create a videochat with WebRTC using PeerJS and Node.js | Our Code World}
+@see {@link https://github.com/ourcodeworld/videochat-peerjs-example|ourcodeworld/videochat-peerjs-example: A videochat implementation using PeerJS with Node.js}
+
+@see {@link https://github.com/crosswalk-project|The Crosswalk Project}
+@see {@link https://github.com/crosswalk-project/crosswalk|crosswalk-project/crosswalk: A web runtime built on Chrome. This project is currently unmaintained.}
+@see {@link https://www.sitepoint.com/android-video-calling-with-crosswalk-and-peerjs/|Android Video Calling with CrossWalk and PeerJS — SitePoint}
+
+@see {@link https://www.toptal.com/webrtc/taming-webrtc-with-peerjs|Beginner's Tutorial to WebRTC using PeerJS | Toptal}
+@see {@link https://medium.com/@rsylvian/webrtc-peer-to-peer-data-video-and-audio-calls-with-peer-js-24f79a09f67d|WebRTC peer-to-peer data, video, and audio calls with Peer.JS}
+
+@see {@link https://blog.csdn.net/liulangdeyue/article/details/38091803|Peer.js基本介绍 - liulangdeyue的专栏 - CSDN博客}
+@see {@link https://blog.csdn.net/mnhn456/article/details/78872906|peerjs填坑 - 看风听雨 - CSDN博客}
+
+@see {@link https://github.com/peers/peerjs/issues/423|Peerjs does not work · Issue #423 · peers/peerjs}
+@see {@link https://github.com/peers/peerjs/issues/147|The "options" in "peer.call(id, stream, options) " should be documented. · Issue #147 · peers/peerjs}
+
+@see {@link https://github.com/peers/peerjs/pull/126|Added missing documentation entries for attributes on DataConnection obj... by sblaurock · Pull Request #126 · peers/peerjs}
+
+@see {@link https://bugs.chromium.org/p/webrtc/issues/detail?id=2681|2681 - No video between PC and PC by PeerJS - webrtc - Monorail}
+
+@see {@link https://stackoverflow.com/questions/40260847/peerjs-only-run-on-localhost-but-not-working-on-remote-hosting|webrtc - peerjs only run on localhost but not working on remote hosting - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/26876004/add-answer-to-peerjs-script|javascript - Add Answer to peerJS script - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/40750271/ice-failed-peerjs-call-started-but-no-video-audio-through|webrtc - ICE failed, PeerJS call started but no video/audio through - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/35510446/why-is-my-peerjs-audio-chat-app-not-working|javascript - Why is my PeerJS audio chat app not working? - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/43741239/webrtc-and-peerjs-how-to-play-a-stream-without-starting-his-own-stream|webrtc and peerjs: how to play a stream without starting his own stream? - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/52616128/peerjs-is-it-possible-to-simultaneously-transmit-calls-and-data|javascript - PeerJS: Is it possible to simultaneously transmit calls and data? - Stack Overflow}
+
+@see {@link https://github.com/feross/simple-peer|feross/simple-peer: 📡 Simple WebRTC video/voice and data channels}
+
+@see {@link https://webtorrent.io/|WebTorrent - Streaming browser torrent client}
+@see {@link https://github.com/webtorrent/webtorrent|webtorrent/webtorrent: ⚡️ Streaming torrent client for the web}
+
+@see {@link https://instant.io/|Instant.io - Streaming file transfer over WebTorrent}
+@see {@link https://github.com/webtorrent/instant.io|webtorrent/instant.io: 🚀 Streaming file transfer over WebTorrent (torrents on the web)}
+
+@see {@link https://zencastr.com/|Zencastr}
+
+@see {@link https://github.com/socketio/socket.io-p2p|socketio/socket.io-p2p}
+
+@see {@link http://moose-team.github.io/friends/|Friends Chat}
+@see {@link https://github.com/moose-team/friends|moose-team/friends: P2P chat powered by the web.}
+
+@see {@link https://maxogden.github.io/screencat/|https://maxogden.github.io/screencat/}
+@see {@link https://github.com/maxogden/screencat|maxogden/screencat: :cat2: webrtc screensharing electron app for mac os (Alpha)}
+
+@see {@link https://www.npmjs.com/package/webcat|webcat - npm}
+@see {@link https://github.com/mafintosh/webcat|mafintosh/webcat: Mad science p2p pipe across the web using webrtc that uses your Github private/public key for authentication and a signalhub for discovery}
+@see {@link https://github.com/mafintosh/signalhub|mafintosh/signalhub: Simple signalling server that can be used to coordinate handshaking with webrtc or other fun stuff.}
+
+@see {@link https://peercalls.com/|Peer Calls - Video calls to anybody in the world with a private direct connection}
+@see {@link https://github.com/jeremija/peer-calls|jeremija/peer-calls: Group peer to peer video calls for everyone}
+
+@see {@link https://www.npmjs.com/package/rtcat|rtcat - npm}
+@see {@link https://github.com/substack/rtcat|substack/rtcat: webrtc netcat}
+
+@see {@link https://www.npmjs.com/package/peernet|peernet - npm}
+@see {@link https://github.com/substack/peernet|substack/peernet: peer to peer gossip network based on random algorithms}
+
+@see {@link http://pushertc.herokuapp.com/|PusherTC}
+@see {@link https://github.com/tokafish/pushertc|tokafish/pushertc: WebRTC made easy with simple-peer and Pusher}
+@see {@link https://blog.carbonfive.com/2014/10/16/webrtc-made-simple/|WebRTC Made Simple}
+@see {@link https://pusher.com/|Pusher | Leader In Realtime Technologies}
+
+@see {@link https://github.com/feross/lxjs-chat|feross/lxjs-chat: Talk to strangers! (P2P video chat using WebRTC)}
+@see {@link https://github.com/feross/whiteboard|feross/whiteboard: P2P Whiteboard powered by WebRTC and WebTorrent}
+
+@see {@link https://mmorainville.github.io/netsix-gh-pages/|Netsix}
+@see {@link https://github.com/mmorainville/netsix|mmorainville/netsix: Netsix allows you to share videos with your friends in a real peer-to-peer manner using WebRTC.}
+
+@see {@link https://www.stealthy.im/|Stealthy | Decentralized Communication}
+@see {@link https://github.com/stealthyinc/stealthy.im|stealthyinc/stealthy.im: Stealthy.IM is a decentralized communication protocol built for Web 3.0 that connects people and applications.}
+@see {@link https://github.com/stealthyinc/webapp|stealthyinc/webapp: Decentralized Web P2P chat, video, and discovery}
+
+@see {@link https://oorja.io/|oorja}
+@see {@link https://github.com/akshayKMR/oorja|akshayKMR/oorja: Effortless video-voice chat with realtime collaborative features. Extensible using react components 🙌}
+
+@see {@link https://github.com/cdnbye/hlsjs-p2p-engine|cdnbye/hlsjs-p2p-engine: A free hls.js plugin to offload bandwidth from expensive traditional CDNs，while also maximizing a user’s viewing experience.}
+@see {@link https://docs.cdnbye.com/#/|CDNBye Docs}
+
+@see {@link https://github.com/Detox|Detox}
+@see {@link https://github.com/Detox/chat|Detox/chat: Chat library of Detox project that provides high-level APIs used when building chat application on top of Detox network}
+
+@see {@link https://github.com/natzcam/firepeer|natzcam/firepeer: secure p2p signalling and authentication for simple-peer using firebase realtime database}
+@see {@link https://firepeer-demo.firebaseapp.com/|FirePeer P2P Chat}
+@see {@link https://github.com/natzcam/firepeer-demo|natzcam/firepeer-demo: firepeer p2p demo}
+
+@see {@link https://getmetastream.com/|Metastream}
+@see {@link https://github.com/samuelmaddock/metastream|samuelmaddock/metastream: Watch streaming media with friends.}
+
+@see {@link http://www.easyrtc.com/|EasyRTC | The fastest way to build your own WebRTC apps}
+@see {@link http://www.easyrtc.com/products/easyrtc/|EasyRTC | EasyRTC}
+@see {@link http://www.easyrtc.com/products/platformrtc/|EasyRTC | PlatformRTC}
+
+@see {@link https://github.com/priologic/easyrtc|priologic/easyrtc: EasyRTC is a bundle of Open Source WebRTC joy! Our Javascript API hides the differences between Chrome and Firefox browsers and simplifies coding needed for working WebRTC apps. Signalling server using socket.io built on node.js. Tons of free code so you can build WebRTC apps in a few hours that just work. Demos include Instant messaging, Multiparty chatroom, Audio + Video, Screen sharing, Data channel Messaging and File sharing, and more.}
+
+@see {@link https://demo.easyrtc.com/demos/index.html|EasyRTC - Landing Page}
+@see {@link https://demo.easyrtc.com/demos/demo_audio_video_simple.html|EasyRTC Demo: Simple Video+Audio}
+
+@see {@link https://bootsnipp.com/snippets/nNg98|Bootstrap Snippet Elegant Bootstrap 4 message chat box template using HTML CSS Bootstrap jQuery}
+@see {@link https://bootsnipp.com/snippets/ZlkBn|Bootstrap Snippet Chat (by Pavel Komiagin) using HTML CSS jQuery}
+@see {@link https://bootsnipp.com/snippets/WaGE1|Bootstrap Snippet Chat form using HTML CSS Javascript}
+@see {@link https://bootsnipp.com/snippets/5MDbB|Bootstrap Snippet uikit tchat using HTML}
+
+@see {@link https://bootsnipp.com/snippets/aMAgx|Bootstrap Snippet chat box scroll bottom always using HTML CSS}
+
+@see {@link https://bootsnipp.com/snippets/y8e4W|Bootstrap Snippet Simple Chat using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/6XlB5|Bootstrap Snippet Simple Chat By Gilson using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/z8A9d|Bootstrap Snippet Simple Chat using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/nNxnN|Bootstrap Snippet chat using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/Oe3aq|Bootstrap Snippet chat using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/xrArG|Bootstrap Snippet Chat - CSS using HTML CSS Bootstrap Javascript}
+@see {@link https://bootsnipp.com/snippets/ORAPE|Bootstrap Snippet chat4 using HTML CSS Bootstrap Javascript}
+
+@see {@link https://bootsnipp.com/snippets/2zyo|Bootstrap Snippet Like Hangout Chat using HTML CSS Bootstrap Javascript}
+
+@see {@link https://bootsnipp.com/snippets/r8DZd|Bootstrap Snippet chat_design using HTML Bootstrap}
+@see {@link https://bootsnipp.com/snippets/O5E9j|Bootstrap Snippet Chat-box using HTML CSS jQuery}
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />   
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<div class="container">
+    	<h2 style="text-align:center">Chat-box Created By <span class="red" style="color:red">M</span>ilind <span class="red" style="color:red">K</span>amthe</h2>
+	<p style="text-align:center">creativemk22@gmail.com</p>
+	<hr>
+	
+	<div class="row">
+	    <div class="chatbox chatbox22 chatbox--tray">
+    <div class="chatbox__title">
+        <h5><a href="javascript:void()">Leave a message</a></h5>
+        <!--<button class="chatbox__title__tray">
+            <span></span>
+        </button>-->
+        <button class="chatbox__title__close">
+            <span>
+                <svg viewBox="0 0 12 12" width="12px" height="12px">
+                    <line stroke="#FFFFFF" x1="11.75" y1="0.25" x2="0.25" y2="11.75"></line>
+                    <line stroke="#FFFFFF" x1="11.75" y1="11.75" x2="0.25" y2="0.25"></line>
+                </svg>
+            </span>
+        </button>
+    </div>
+		
+    <div class="chatbox__body">
+        <div class="chatbox__body__message chatbox__body__message--left">
+		
+		<div class="chatbox_timing">
+		<ul>
+		<li><a href="#"><i class="fa fa-calendar"></i> 22/11/2018</a></li>
+			<li><a href="#"><i class="fa fa-clock-o"></i> 7:00 PM</a></a></li>
+		</ul>
+		</div>
+            <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Picture">
+			<div class="clearfix"></div>
+			<div class="ul_section_full">
+			<ul class="ul_msg">
+			<li><strong>Person Name</strong></li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="ul_msg2">
+			<li><a href="#"><i class="fa fa-pencil"></i> </a></li>
+			<li><a href="#"><i class="fa fa-trash chat-trash"></i></a></li>
+			</ul>
+			</div>
+			 
+        </div>
+        <div class="chatbox__body__message chatbox__body__message--right">
+		
+		<div class="chatbox_timing">
+		<ul>
+		<li><a href="#"><i class="fa fa-calendar"></i> 22/11/2018</a></li>
+			<li><a href="#"><i class="fa fa-clock-o"></i> 7:00 PM</a></a></li>
+		</ul>
+		</div>
+	
+            <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Picture">
+			<div class="clearfix"></div>
+			<div class="ul_section_full">
+			<ul class="ul_msg">
+			<li><strong>Person Name</strong></li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="ul_msg2">
+			<li><a href="#"><i class="fa fa-pencil"></i> </a></li>
+			<li><a href="#"><i class="fa fa-trash chat-trash"></i></a></li>
+			</ul>
+			</div>
+			 
+        </div>
+        <div class="chatbox__body__message chatbox__body__message--left">
+		
+		<div class="chatbox_timing">
+		<ul>
+		<li><a href="#"><i class="fa fa-calendar"></i> 22/11/2018</a></li>
+			<li><a href="#"><i class="fa fa-clock-o"></i> 7:00 PM</a></a></li>
+		</ul>
+		</div>
+	
+            <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Picture">
+			<div class="clearfix"></div>
+			<div class="ul_section_full">
+			<ul class="ul_msg">
+			<li><strong>Person Name</strong></li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="ul_msg2">
+			<li><a href="#"><i class="fa fa-pencil"></i> </a></li>
+			<li><a href="#"><i class="fa fa-trash chat-trash"></i></a></li>
+			</ul>
+			</div>
+			 
+        </div>
+        <div class="chatbox__body__message chatbox__body__message--right">
+		
+		<div class="chatbox_timing">
+		<ul>
+		<li><a href="#"><i class="fa fa-calendar"></i> 22/11/2018</a></li>
+			<li><a href="#"><i class="fa fa-clock-o"></i> 7:00 PM</a></a></li>
+		</ul>
+		</div>
+	
+            <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Picture">
+			<div class="clearfix"></div>
+			<div class="ul_section_full">
+			<ul class="ul_msg">
+			<li><strong>Person Name</strong></li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="ul_msg2">
+			<li><a href="#"><i class="fa fa-pencil"></i> </a></li>
+			<li><a href="#"><i class="fa fa-trash chat-trash"></i></a></li>
+			</ul>
+			</div>
+			 
+        </div>
+        <div class="chatbox__body__message chatbox__body__message--left">
+		
+		<div class="chatbox_timing">
+		<ul>
+		<li><a href="#"><i class="fa fa-calendar"></i> 22/11/2018</a></li>
+			<li><a href="#"><i class="fa fa-clock-o"></i> 7:00 PM</a></a></li>
+		</ul>
+		</div>
+	
+            <img src="https://www.gstatic.com/webp/gallery/2.jpg" alt="Picture">
+			<div class="clearfix"></div>
+			<div class="ul_section_full">
+			<ul class="ul_msg">
+			<li><strong>Person Name</strong></li>
+			<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="ul_msg2">
+			<li><a href="#"><i class="fa fa-pencil"></i> </a></li>
+			<li><a href="#"><i class="fa fa-trash chat-trash"></i></a></li>
+			</ul>
+			</div>
+			 
+        </div>
+    </div>
+		
+    <div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm chat_set_height" placeholder="Type your message here..." tabindex="0" dir="ltr" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" contenteditable="true" />
+						
+                        <span class="input-group-btn">
+                            <button class="btn bt_bg btn-sm" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>
+</div>
+	    
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+.chatbox {
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+
+    -webkit-transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 600ms cubic-bezier(0.19, 1, 0.22, 1);
+z-index: 999;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.chatbox--tray {
+    bottom: -350px;
+}
+
+.chatbox--closed {
+    bottom: -400px;
+}
+
+.chatbox .form-control:focus {
+    border-color: #1f2836;
+}
+
+.chatbox__title,
+.chatbox__body {
+    border-bottom: none;
+}
+
+.chatbox__title {
+    min-height: 50px;
+    padding-right: 10px;
+    background-color: #1f2836cc;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    cursor: pointer;
+
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.chatbox__title h5 {
+    height: 50px;
+    margin: 0 0 0 15px;
+    line-height: 50px;
+    position: relative;
+    padding-left: 20px;
+
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+.chatbox__title h5 a {
+    color: #fff;
+    max-width: 195px;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatbox__title h5:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    background: #4CAF50;
+    border-radius: 6px;
+
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.chatbox__title__tray,
+.chatbox__title__close {
+    width: 24px;
+    height: 24px;
+    outline: 0;
+    border: none;
+    background-color: transparent;
+    opacity: 0.5;
+    cursor: pointer;
+
+    -webkit-transition: opacity 200ms;
+    transition: opacity 200ms;
+}
+
+.chatbox__title__tray:hover,
+.chatbox__title__close:hover {
+    opacity: 1;
+}
+
+.chatbox__title__tray span {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-bottom: 2px solid #fff
+}
+
+.chatbox__title__close svg {
+    vertical-align: middle;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.2px;
+}
+
+.chatbox__body,
+.chatbox__credentials {
+    padding: 15px;
+    border-top: 0;
+    background-color:#DCDCDC;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+}
+
+.chatbox__credentials {
+    display: none;
+}
+
+.chatbox__credentials .form-control {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.chatbox__body {
+    overflow-y: auto;
+}
+
+.chatbox__body__message {
+    position: relative;
+}
+
+.chatbox__body__message p {
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+    box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+}
+
+.chatbox__body__message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fcfcfc;
+    position: absolute;
+    top: 15px;
+}
+
+.chatbox__body__message--left p {
+    margin-left: 15px;
+    padding-left: 30px;
+    text-align: left;padding-top: 25px;
+}
+
+.chatbox__body__message--left img {
+    left: -5px;
+}
+
+.chatbox__body__message--right p {
+    margin-right: 15px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.chatbox__body__message--right img {
+    right: -5px;
+}
+
+.chatbox__message {
+    padding: 15px;
+    min-height: 50px;
+    outline: 0;
+    resize: none;
+    border: none;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    background-color: #fefefe;
+}
+
+.chatbox--empty {
+    height: 262px;
+}
+
+.chatbox--empty.chatbox--tray {
+    bottom: -212px;
+}
+
+.chatbox--empty.chatbox--closed {
+    bottom: -262px;
+}
+
+.chatbox--empty .chatbox__body,
+.chatbox--empty .chatbox__message {
+    display: none;
+}
+
+.chatbox--empty .chatbox__credentials {
+    display: block;
+}
+.chatbox_timing {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+    top: 2px;
+}
+.chatbox_timing ul{padding:0;margin:0}
+.chatbox_timing ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.chatbox_timing ul li a{display:block;color:#747474}
+
+.ul_msg {
+
+    
+    padding: 10px !important;
+
+}
+.chatbox__body__message--right .ul_section_full{
+	margin-right: 15px;
+padding-right: 30px;
+text-align: right;
+border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+    box-shadow: 1px 1px rgba(100, 100, 100, 0.1);margin-bottom: 15px;
+padding-bottom: 5px;padding-top:15px;
+}
+.chatbox__body__message--left .ul_section_full {
+
+    margin-left: 15px;
+    padding-left: 15px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+    box-shadow: 1px 1px rgba(100, 100, 100, 0.1);
+
+}
+.ul_msg{padding:0;margin:0px}
+.ul_msg li{list-style:none;display:block}
+.ul_msg2{padding:0;margin:0px;text-align: right;}
+.ul_msg2 li{list-style:none;display:inline-block;margin-right: 15px;}
+.chatbox__body__message--right .chatbox_timing  {
+    position: absolute;
+    left: 10px;
+    font-size: 12px;
+    top: 2px;
+}
+.chatbox__body__message--right .ul_msg2{text-align:left}
+.chatbox__body__message--right .ul_msg2 li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 15px;margin-right:0px
+}
+.chat_set_height {
+    height: 40px;
+    margin-top: 1px;
+}
+.chatbox22 .form-control:focus {
+    border-color: #DCDCDC;
+}
+
+.width50{width:50%;float:left;background:#ECECEC;}
+
+/*======================Chat Box Ends=====================================================*/
+/*======================Message=====================================================*/
+
+.message_check{padding-top:10px;}
+.messsade_date {
+    text-align: left;
+    padding-top: 9px;
+}
+.messsade_date a{color:#000;}
+.padleftright0{padding-left:0px;padding-right:0px;}
+.message_box_area {
+    color: #000;
+    cursor: pointer;
+}
+.create_m {
+    border: 1px solid #ccc !important;
+}
+.fileinput-button {
+    float: left;
+    margin-right: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.fileinput-button {
+    background: none repeat scroll 0 0 #eeeeee;
+    border: 1px solid #e6e6e6;margin-top: 15px;
+}
+.fileinput-button {
+    float: left;
+    margin-right: 4px;
+    overflow: hidden;
+    position: relative;
+}
+.fileinput-button input {
+    cursor: pointer;
+    direction: ltr;
+    font-size: 23px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(-300px, 0px) scale(4);
+}
+.fileupload-buttonbar .btn, .fileupload-buttonbar .toggle {
+    margin-bottom: 5px;
+}
+.create_m:focus {
+    border-color: #66afe9 !important;
+    outline: 0 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6) !important;
+}
+.col-lg-3.control-label {
+    text-align: left;
+}
+
+@see {@link https://www.w3schools.com/colors/|Colors Tutorial}
+@see {@link https://www.w3schools.com/colors/colors_names.asp|HTML Color Names}
+@see {@link https://www.w3schools.com/colors/colors_hex.asp|HTML Color Values}
+@see {@link https://www.w3schools.com/colors/colors_picker.asp|HTML Color Picker}
+@see {@link https://www.w3schools.com/colors/colors_converter.asp|Color Converter}
+
+@see {@link https://www.w3schools.com/colors/colors_hex.asp|HTML Color Values}
+@see {@link https://www.w3schools.com/colors/colors_hexadecimal.asp|Colors HEX}
+
+@see {@link https://uigradients.com/|uiGradients - Beautiful colored gradients}
+
+@see {@link https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048|30個你必須記住的CSS選擇器}
+@see {@link https://developer.mozilla.org/zh-TW/docs/Web/CSS/CSS_Selectors|CSS Selectors - CSS | MDN}
+
+@see {@link http://n.sfs.tw/content/index/10632|CSS 的 !important 意義 @新精讚}
+@see {@link http://xsthing.pixnet.net/blog/post/151002602-%E3%80%90css%E3%80%91margin%E3%80%81padding%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A|【CSS】margin、padding傻傻分不清楚 @ 經典時尚慢流行 :: 痞客邦 ::}
+
+@see {@link https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/245622/|擴充套件bootstrap的modal模態框-動態新增modal框-彈出多個modal框 | 程式前沿}
+@see {@link https://blog.xuite.net/tolarku/blog/321502755-jQuery+%2B+css+%2B+dialog+%E8%BC%89%E5%85%A5%E7%B6%B2%E9%A0%81%E5%BE%8C%E8%87%AA%E5%8B%95%E8%B7%B3%E5%87%BA%E4%BB%8B%E7%B4%B9%E9%A0%81%E9%9D%A2|jQuery + css + dialog 載入網頁後自動跳出介紹頁面 @ 黃昏的甘蔗 :: 隨意窩 Xuite日誌}
+
+@see {@link http://w3c.github.io/media-source/|Media Source Extensions™}
+@see {@link https://www.w3.org/TR/media-source/|Media Source Extensions™}
+
+@see {@link https://www.w3.org/TR/webaudio/|Web Audio API}
+@see {@link https://webaudio.github.io/web-audio-api/|Web Audio API}
+
+@see {@link https://developer.mozilla.org/zh-TW/docs/Web_Audio_API|Web Audio API | MDN}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API|Using the Web Audio API - Web APIs | MDN}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/AudioContext|AudioContext - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/AudioNode|AudioNode - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/ScriptProcessorNode|ScriptProcessorNode - Web APIs | MDN}
+
+@see {@link https://www.html5rocks.com/en/tutorials/webaudio/intro/|Getting Started with Web Audio API - HTML5 Rocks}
+
+@see {@link https://developers.google.com/web/updates/2012/09/Live-Web-Audio-Input-Enabled|Live Web Audio Input Enabled!  |  Web  |  Google Developers}
+@see {@link https://developers.google.com/web/updates/2018/06/more-native-echo-cancellation|More native echo cancellation!  |  Web  |  Google Developers}
+
+@see {@link https://webaudiodemos.appspot.com/input/index.html|Live input effects}
+@see {@link https://github.com/cwilso/Audio-Input-Effects|cwilso/Audio-Input-Effects: Live input Web Audio effects}
+
+@see {@link https://www.oxxostudio.tw/articles/201509/web-audio-api.html|初探 Web Audio API - OXXO.STUDIO}
+@see {@link https://medium.freecodecamp.org/all-you-need-to-know-about-the-web-audio-api-3df170559378|All you need to know about the Web Audio API – freeCodeCamp.org}
+
+@see {@link https://bugs.chromium.org/p/chromium/issues/detail?id=422420|422420 - AEC support for remote audio streams that don't come from a PeerConnection - chromium - Monorail}
+@see {@link https://bugs.chromium.org/p/chromium/issues/detail?id=687574|687574 - AEC when using Web Audio API - chromium - Monorail}
+
+@see {@link https://bugs.chromium.org/p/chromium/issues/detail?id=241543|241543 - createMediaStreamSource does not work for remote peer's stream - chromium - Monorail}
+@see {@link https://bugs.chromium.org/p/chromium/issues/detail?id=121673|121673 - Hook up Web Audio API with WebRTC for audio processing - chromium - Monorail}
+@see {@link https://bugs.chromium.org/p/chromium/issues/detail?id=524218|524218 - Support captureStream() from canvas - chromium - Monorail}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/Navigator|Navigator - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia|Navigator.getUserMedia() - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices|MediaDevices - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia|MediaDevices.getUserMedia() - Web APIs | MDN}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStream|MediaStream - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API|Media Capture and Streams API (Media Stream) - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack|MediaStreamTrack - Web APIs | MDN}
+
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder|MediaRecorder - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API|MediaStream Recording API - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Using_the_MediaStream_Recording_API|Using the MediaStream Recording API - Web APIs | MDN}
+@see {@link https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API/Recording_a_media_element|Recording a media element - Web APIs | MDN}
+
+@see {@link https://w3c.github.io/html-media-capture/|HTML Media Capture}
+
+@see {@link https://www.w3.org/TR/mediastream-recording/|MediaStream Recording}
+@see {@link https://w3c.github.io/mediacapture-record/|MediaStream Recording}
+@see {@link https://w3c.github.io/mediacapture-record/MediaRecorder.html|MediaStream Recording}
+
+@see {@link https://mdn.github.io/web-dictaphone/|Web dictaphone}
+@see {@link https://github.com/mdn/web-dictaphone|mdn/web-dictaphone: A sample MDN app that uses getUserMedia and MediaRecorder API for recording audio snippets, and The Web Audio API for visualizations.}
+
+@see {@link https://webaudiodemos.appspot.com/AudioRecorder/index.html|Audio Recorder}
+@see {@link https://github.com/cwilso/AudioRecorder|cwilso/AudioRecorder: Simple live audio file recorder, based on RecorderJS}
+
+@see {@link https://github.com/mattdiamond/Recorderjs|mattdiamond/Recorderjs: A plugin for recording/exporting the output of Web Audio API nodes}
+@see {@link https://github.com/Mido22/mp3Recorder|Mido22/mp3Recorder: for capturing audio and making mp3 only using javascript and html5}
+@see {@link https://github.com/Mido22/recordOpus|Mido22/recordOpus: option for recording videos server side using opus packets}
+
+@see {@link https://github.com/streamproc/MediaStreamRecorder|streamproc/MediaStreamRecorder: Cross browser audio/video/screen recording. It supports Chrome, Firefox, Opera and Microsoft Edge. It even works on Android browsers. It follows latest MediaRecorder API standards and provides similar APIs.}
+
+@see {@link https://www.html5rocks.com/en/tutorials/getusermedia/intro/|Capturing Audio & Video in HTML5 - HTML5 Rocks}
+
+@see {@link https://simpl.info/getusermedia/|getUserMedia}
+@see {@link https://github.com/samdutton/simpl/tree/gh-pages/getusermedia|simpl/getusermedia at gh-pages · samdutton/simpl}
+
+@see {@link https://developers.google.com/web/fundamentals/media/recording-audio/?hl=zh-tw|錄製用戶的音頻  |  Web  |  Google Developers}
+@see {@link http://typedarray.org/from-microphone-to-wav-with-getusermedia-and-web-audio/|From microphone to .WAV with: getUserMedia and Web Audio | TypedArray.org}
+@see {@link https://ourcodeworld.com/articles/read/671/how-to-record-a-video-with-audio-in-the-browser-with-javascript-webrtc|How to record a video with audio in the browser with JavaScript (WebRTC) | Our Code World}
+@see {@link https://github.com/GoogleChromeLabs/webm-wasm|GoogleChromeLabs/webm-wasm: webm-wasm lets you create webm videos in JavaScript via WebAssembly.}
+
+@see {@link https://blog.csdn.net/lcwwade/article/details/52130903|WebRTC getUserMedia()获取流失败的原因查询及解决 - lcwwade的博客 - CSDN博客}
+
+@see {@link https://stackoverflow.com/questions/34197653/getusermedia-in-chrome-47-without-using-https|javascript - getUserMedia() in chrome 47 without using https - Stack Overflow}
+@see {@link https://stackoverflow.com/questions/11979528/record-audio-stream-from-getusermedia|javascript - Record Audio Stream from getUserMedia - Stack Overflow}
+
+@see {@link https://xmpp.org/|XMPP | XMPP Main}
+
+@see {@link https://otalk.org/|Otalk | The Truly Open WebRTC Platform from &yet}
+@see {@link https://github.com/otalk|Otalk}
+@see {@link https://github.com/otalk/hark|otalk/hark: Converts an audio stream to speech events in the browser}
+@see {@link https://github.com/otalk/jingle.js|otalk/jingle.js: A generic Jingle session manager implementation, suitable for integration by other XMPP libraries.}
+@see {@link https://github.com/otalk/otalk-im-client|otalk/otalk-im-client: Stanza.io webrtc capable xmpp client <3}
+
+@see {@link https://www.simplewebrtc.com/|SimpleWebRTC}
+@see {@link https://github.com/legastero/stanza.io|legastero/stanza.io: Modern XMPP in the browser, with a JSON API}
+
+@see {@link https://github.com/andyet/SimpleWebRTC/issues/272|Peer MediaStream with WebAudio not working · Issue #272 · andyet/SimpleWebRTC}
+
+@see {@link https://getkaiwa.com/|A modern and Open Source Web client for XMPP | Kaiwa}
+@see {@link https://github.com/digicoop/kaiwa|digicoop/kaiwa: [UNMAINTAINED] A modern XMPP Web client}
+
+@see {@link https://prosody.im/|Welcome – Prosody IM}
+@see {@link https://github.com/bjc/prosody|bjc/prosody: Clone of Prosody's Mercurial Repository, please do not file PRs or bug reports here, but go to the official website instead.}
+
+@see {@link https://www.xabber.com/|Xabber - open-source XMPP client for Android and Web}
+@see {@link https://github.com/redsolution/xabber-android|redsolution/xabber-android: Open-source XMPP client for Android}
+
+@see {@link https://monal.im/|Monal IM – Free XMPP Chat}
+@see {@link https://github.com/anurodhp/Monal|anurodhp/Monal: Free XMPP client for iOS and OS X}
+
+@see {@link http://www.pidgin.im/|Pidgin, the universal chat client}
+@see {@link https://sourceforge.net/projects/pidgin/|Pidgin IM download | SourceForge.net}
+
+@see {@link https://gajim.org/|Gajim, an XMPP client}
+@see {@link https://gajim.org/downloads/|Index of /downloads}
+
+@see {@link https://sourceforge.net/software/product/chat.io/|chat.io Reviews and Pricing 2019}
+@see {@link https://sourceforge.net/software/product/Discord/|Discord Reviews and Pricing 2019}
+@see {@link https://sourceforge.net/software/product/Olark/|Olark Reviews and Pricing 2019}
+@see {@link https://sourceforge.net/software/product/LiveChat/|LiveChat Reviews and Pricing 2019}
+@see {@link https://sourceforge.net/software/product/Freshchat/|Freshchat Reviews and Pricing 2019}
+@see {@link https://sourceforge.net/software/product/Help.com-Chat/|Help.com Chat Reviews and Pricing 2019}
+
+@see {@link https://www.webrtc-experiment.com/|WebRTC Demos, Experiments, Libraries, Examples | Muaz Khan}
+@see {@link https://www.webrtc-experiment.com/msr/|MediaStreamRecorder Demos}
+
+@see {@link https://www.rtcmulticonnection.org/|RTCMultiConnection.js | WebRTC JavaScript library for peer-to-peer applications (screen sharing, audio/video conferencing, file sharing, media streaming etc.)}
+@see {@link https://www.rtcmulticonnection.org/docs/openSignalingChannel/|RTCMultiConnection.openSignalingChannel | This method is deprecated since RTCMultiConnection version 3}
+@see {@link https://github.com/muaz-khan/RTCMultiConnection|muaz-khan/RTCMultiConnection: WebRTC JavaScript library for peer-to-peer applications (screen sharing, audio/video conferencing, file sharing, media streaming etc.)}
+@see {@link https://github.com/muaz-khan/RTCMultiConnection/wiki|Home · muaz-khan/RTCMultiConnection Wiki}
+@see {@link https://rtcmulticonnection.herokuapp.com/demos/|RTCMultiConnection Demos}
+
+@see {@link https://github.com/muaz-khan/RTCMultiConnection-Server|muaz-khan/RTCMultiConnection-Server: RTCMultiConnection socket.io server (npm install rtcmulticonnection-server)}
+
+@see {@link https://github.com/muaz-khan/WebRTC-Experiment|muaz-khan/WebRTC-Experiment: WebRTC, WebRTC and WebRTC. Everything here is all about WebRTC!!}
+@see {@link https://github.com/muaz-khan/WebRTC-Experiment/tree/master/|muaz-khan/WebRTC-Experiment: WebRTC, WebRTC and WebRTC. Everything here is all about WebRTC!!}
+@see {@link https://github.com/muaz-khan/WebRTC-Experiment/tree/master/RTCMultiConnection|WebRTC-Experiment/RTCMultiConnection at master · muaz-khan/WebRTC-Experiment}
+
+@see {@link https://www.webrtc-experiment.com/DetectRTC/|DetectRTC | Is WebRTC Supported In Your Browser?}
+@see {@link https://github.com/muaz-khan/DetectRTC|muaz-khan/DetectRTC: A tiny JavaScript library that can be used to detect WebRTC features e.g. system having speakers, microphone or webcam, screen capturing is supported, number of audio/video devices etc. https://www.webrtc-experiment.com/DetectRTC/}
+
+@see {@link https://www.webrtc-experiment.com/getStats/|getStats.js Demo | WebRTC getStats API}
+@see {@link https://github.com/muaz-khan/getStats|muaz-khan/getStats: A tiny JavaScript library using WebRTC getStats API to return peer connection stats i.e. bandwidth usage, packets lost, local/remote ip addresses and ports, type of connection etc.}
+
+@see {@link https://www.webrtc-experiment.com/RTCall/|RTCall.js — A library for Browser-to-Browser audio-only calling | Muaz Khan}
+@see {@link https://github.com/muaz-khan/WebRTC-Experiment/tree/master/RTCall|WebRTC-Experiment/RTCall at master · muaz-khan/WebRTC-Experiment}
+
+@see {@link https://www.webrtc-experiment.com/Translator/|Translator.js / WebRTC Voice & Text Translator}
+@see {@link https://github.com/muaz-khan/Translator|muaz-khan/Translator: Translator.js is a JavaScript library built top on Google Speech-Recognition & Translation API to transcript and translate voice and text. It supports many locales and brings globalization in WebRTC! https://www.webrtc-experiment.com/Translator/}
+
+@see {@link https://www.webrtc-experiment.com/RecordRTC/|RecordRTC | WebRTC Audio+Video+Screen Recording}
+@see {@link https://github.com/muaz-khan/RecordRTC|muaz-khan/RecordRTC: WebRTC JavaScript library for audio/video as well as screen activity recording. It supports Chrome, Firefox, Opera, Android, and Microsoft Edge. Platforms: Linux, Mac and Windows.}
+
+@see {@link https://github.com/muaz-khan/Chrome-Extensions|muaz-khan/Chrome-Extensions: WebRTC chrome extensions for screen sharing, screen recording, file sharing, youtube+audio sharing, etc.}
+@see {@link https://chrome.google.com/webstore/detail/recordrtc/ndcljioonkecdnaaihodjgiliohngojp|RecordRTC - Chrome 線上應用程式商店}
+@see {@link https://github.com/muaz-khan/Chrome-Extensions/tree/master/screen-recording|Chrome-Extensions/screen-recording at master · muaz-khan/Chrome-Extensions}
+@see {@link https://chrome.google.com/webstore/detail/webrtc-desktop-sharing/nkemblooioekjnpfekmjhpgkackcajhg|WebRTC Desktop Sharing - Chrome 線上應用程式商店}
+@see {@link https://github.com/muaz-khan/Chrome-Extensions/tree/master/desktopCapture-p2p|Chrome-Extensions/desktopCapture-p2p at master · muaz-khan/Chrome-Extensions}
+
+@see {@link https://github.com/muaz-khan/WebRTC-Experiment/issues/2|unable to get remote stream in case when a “remote stream” is attached by calling “peer.addStream(remoteStream) · Issue #2 · muaz-khan/WebRTC-Experiment}
+
+@see {@link https://recordrtc.org/|RecordRTC: Home}
+

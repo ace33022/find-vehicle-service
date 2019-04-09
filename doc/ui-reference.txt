@@ -1,0 +1,188 @@
+﻿
+@comment UI Reference
+
+@see {@link https://getbootstrap.com/|Bootstrap · The most popular HTML, CSS, and JS library in the world.}
+@see {@link https://github.com/twbs/bootstrap|twbs/bootstrap: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.}
+
+@see {@link https://www.bootstrapcdn.com/|Quick Start · BootstrapCDN by StackPath}
+
+@see {@link https://bootstrap-slack.herokuapp.com/|Join bootstrap on Slack!}
+@see {@link https://opencollective.com/bootstrap/|Bootstrap - Open Collective}
+
+@see {@link https://bootswatch.com/|Bootswatch: Free themes for Bootstrap}
+@see {@link https://themes.getbootstrap.com/|Bootstrap Themes Built & Curated by the Bootstrap Team.}
+@see {@link https://expo.getbootstrap.com/|Bootstrap Expo}
+
+@see {@link https://getbootstrap.com/docs/3.3/getting-started/|Getting started · Bootstrap}
+
+@see {@link https://github.com/brave/browser-laptop-bootstrap|brave/browser-laptop-bootstrap}
+
+@see {@link http://www.samrayner.com/bootstrap-side-navbar/|Bootstrap 3 Side Navbar}
+
+@see {@link https://codepen.io/antoncabon/pen/WxQLbM|30+ Bootstrap Modal Animation Effects}
+@see {@link https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects|30+ Bootstrap Modal Animation Effects - Up}
+
+@see {@link https://tocas-ui.com/|Tocas UI}
+@see {@link https://github.com/TeaMeow/TocasUI|TeaMeow/TocasUI: Tocas UI — A CSS3 and SASS UI library.}
+@see {@link https://cdnjs.com/libraries/tocas-ui|tocas-ui - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+
+@see {@link http://examples.tocas-ui.com/|Examples | 📦 以 Tocas UI 所製作的網頁範例。}
+@see {@link https://examples.tocas-ui.com/pages/chatroom.html|聊天室範例 | Tocas UI}
+@see {@link https://github.com/TocasUI/Examples/blob/master/pages/chatroom.html|Examples/chatroom.html at master · TocasUI/Examples}
+
+<!-- Tocas UI：CSS 與元件 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+
+<!-- Tocas JS：模塊與 JavaScript 函式 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+
+@see {@link http://www.kule.tw/|Kule Lazy 3}
+@see {@link http://urbrowser.kule.tw/|Kule urBrowser}
+@see {@link https://cdnjs.com/libraries/kule.lazy|kule.lazy - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+@see {@link https://github.com/keicheng/urbrowser|keicheng/urbrowser: 偵測使用者的平台、系統以及瀏覽器}
+
+@see {@link https://semantic-ui.com/|Semantic UI}
+@see {@link https://github.com/semantic-org/semantic-ui/|Semantic-Org/Semantic-UI: Semantic is a UI component framework based around useful principles from natural language.}
+@see {@link https://cdnjs.com/libraries/semantic-ui|semantic-ui - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+
+@see {@link https://jjuliano.github.io/markdown-ui/|https://jjuliano.github.io/markdown-ui/}
+@see {@link https://github.com/jjuliano/markdown-ui|jjuliano/markdown-ui: Write UI in Markdown Syntax}
+
+@see {@link http://basscss.com/|Basscss}
+@see {@link https://github.com/basscss/basscss|basscss/basscss: Low-level CSS Toolkit}
+
+@see {@link https://bulma.io/|Bulma: Free, open source, & modern CSS framework based on Flexbox}
+@see {@link https://github.com/jgthms/bulma|jgthms/bulma: Modern CSS framework based on Flexbox}
+@see {@link https://cdnjs.com/libraries/bulma|bulma - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+
+@see {@link https://imperavi.com/|Imperavi}
+@see {@link https://imperavi.com/kube/|Kube CSS & JS Framework}
+@see {@link https://github.com/imperavi/kubeframework|imperavi/kubeframework: Kube UI Framework CSS & JS}
+
+@see {@link https://material.io/|Homepage - Material Design}
+@see {@link https://material.io/design/|Design - Material Design}
+@see {@link https://material.io/develop/|Develop - Material Design}
+@see {@link https://material.io/tools/|Tools - Material Design}
+@see {@link https://material.io/develop/web/|Develop for the Web - Material Design}
+
+@see {@link https://milligram.io/|Milligram - A minimalist CSS framework.}
+@see {@link https://github.com/milligram/milligram|milligram/milligram: A minimalist CSS framework.}
+
+@see {@link https://wiredjs.com/|Wired Elements}
+@see {@link https://github.com/wiredjs/wired-elements|wiredjs/wired-elements: Collection of elements that appear hand drawn. Great for wireframes.}
+
+@see {@link https://purecss.io/|Pure}
+@see {@link https://github.com/pure-css/pure/|pure-css/pure: A set of small, responsive CSS modules that you can use in every web project.}
+
+@see {@link https://primer.style/|Primer open-source projects}
+@see {@link https://github.com/primer/css|primer/css: The CSS design system that powers GitHub}
+
+@see {@link https://picturepan2.github.io/spectre/|Spectre.css CSS Framework}
+@see {@link https://github.com/picturepan2/spectre|picturepan2/spectre: Spectre.css - A Lightweight, Responsive and Modern CSS Framework}
+
+@see {@link http://tapestry.wisembly.com/|Tapestry}
+@see {@link https://github.com/Wisembly/tapestry|Wisembly/tapestry: Wisembly - UI Elements}
+
+@see {@link https://getuikit.com/|UIkit}
+@see {@link https://github.com/uikit/uikit|uikit/uikit: A lightweight and modular front-end framework for developing fast and powerful web interfaces}
+
+@see {@link http://vitaluikit.com/|Vital UI Kit}
+@see {@link https://github.com/GSS-FED/vital-ui-kit/|GSS-FED/vital-ui-kit: 簡單、輕量級、模組化的 UI library (React component can be found in README)}
+
+@see {@link https://www.lightningdesignsystem.com/|Lightning Design System}
+
+@see {@link http://photonkit.com/|Photon}
+@see {@link https://github.com/connors/photon|connors/photon: The fastest way to build beautiful Electron apps using simple HTML and CSS}
+
+@see {@link https://ant.design/|Ant Design - A UI Design Language}
+@see {@link https://github.com/ant-design/ant-design|ant-design/ant-design: 🌈 A UI Design Language}
+
+@see {@link https://weui.io/|WeUI}
+@see {@link http://amazeui.org/|Amaze UI | HTML5 跨屏前端框架}
+
+@see {@link https://www.mdui.org/|首页 - MDUI}
+@see {@link https://github.com/zdhxiong/mdui|zdhxiong/mdui: MDUI 是一个基于 Material Design 的前端框架。}
+@see {@link https://gitee.com/zdhxiong/mdui|mdui: MDUI 是一个基于 Material Design 的前端框架。}
+
+@see {@link http://sui.taobao.org/sui/docs/|SUI}
+@see {@link https://github.com/sdc-alibaba/SUI-Mobile|sdc-alibaba/SUI-Mobile: SUI Mobile (MSUI)是由阿里巴巴国际UED前端出品的移动端UI库，轻量精美}
+
+@see {@link https://vuematerial.io/|Vue Material - Material Design for Vue.js}
+@see {@link https://github.com/vuematerial/vue-material|vuematerial/vue-material: Material design for Vue.js}
+
+@see {@link https://vux.li/|VUX - Vue 移动端 UI 组件库}
+
+@see {@link https://www.iviewui.com/|iView - A high quality UI Toolkit based on Vue.js}
+@see {@link https://github.com/iview/iview|iview/iview: A high quality UI Toolkit built on Vue.js 2.0}
+@see {@link https://gitee.com/icarusion/iview|iview: iView 是一套基于 Vue.js 的 UI 组件库，主要服务于 PC 界面的中后台产品。}
+
+@see {@link https://muse-ui.org/#/zh-CN|Muse-UI}
+@see {@link https://github.com/museui/muse-ui|museui/muse-ui: Material Design UI library for Vuejs 2.0}
+
+
+@comment **********************************************************************
+
+@see {@link https://www.browserstack.com/|Most Reliable Mobile App & Browser Testing Platform | BrowserStack}
+
+@see {@link https://editorconfig.org/|EditorConfig}
+@see {@link https://github.com/editorconfig/|EditorConfig}
+
+@see {@link https://www.cyberciti.biz/|nixCraft - Linux Tips, Hacks, Tutorials, And Ideas In Blog}
+@see {@link https://opencollective.com/|Home - Open Collective}
+
+@see {@link https://gohugo.io/|The world’s fastest framework for building websites | Hugo}
+@see {@link https://github.com/gohugoio/hugo|gohugoio/hugo: The world’s fastest framework for building websites.}
+
+@see {@link https://getcomposer.org/|Composer}
+
+@see {@link https://01.org/|01.org | Intel Open Source Technology Center}
+
+@see {@link https://github.com/akrennmair/libmp3lame-js|akrennmair/libmp3lame-js: port of libmp3lame to JavaScript using emscripten}
+
+@see {@link https://github.com/samuelmaddock/muon|samuelmaddock/muon: Build browsers and browser like applications with HTML, CSS, and JavaScript}
+@see {@link https://github.com/samuelmaddock/swarm-peer-server|samuelmaddock/swarm-peer-server: 🖧 A network swarm for creating secure P2P connections over BitTorrent DHT, DNS, and mDNS.}
+
+@see {@link https://github.com/Bilibili/flv.js|bilibili/flv.js: HTML5 FLV Player}
+@see {@link https://github.com/mbebenita/Broadway|mbebenita/Broadway: A JavaScript H.264 decoder.}
+
+@see {@link https://jsmpeg.com/|JSMpeg – Decode it like it's 1999}
+@see {@link https://github.com/phoboslab/jsmpeg|phoboslab/jsmpeg: MPEG1 Video Decoder in JavaScript}
+
+@see {@link http://llvm.org/|The LLVM Compiler Infrastructure Project}
+@see {@link https://en.wikipedia.org/wiki/LLVM|LLVM - Wikipedia}
+@see {@link https://zh.wikipedia.org/wiki/LLVM|LLVM - 維基百科，自由的百科全書}
+
+@see {@link http://asmjs.org/|asm.js}
+@see {@link https://webassembly.org/|WebAssembly}
+
+@see {@link https://emscripten.org/|Main — Emscripten 1.38.27 documentation}
+@see {@link https://github.com/emscripten-core/emscripten|emscripten-core/emscripten: Emscripten: An LLVM-to-Web Compiler}
+@see {@link https://github.com/emscripten-core/emsdk|emscripten-core/emsdk: Emscripten SDK}
+@see {@link https://github.com/kripken/emscripten|kripken/emscripten: Emscripten: An LLVM-to-JavaScript Compiler}
+
+@see {@link https://www.uplabs.com/|Daily UI Downloads - Up}
+@see {@link https://www.justbeamit.com/|JustBeamIt - file transfer made easy}
+
+@see {@link http://www.redsolution.com/|Software and Mobile Application Development company | Redsolution}
+
+@see {@link https://crowdin.com/|Localization Management Platform: collaborative internationalization and easy to use translation system - Crowdin}
+
+@see {@link https://opensource.guide/|Open Source Guides | Learn how to launch and grow your project.}
+
+@see {@link https://www.webrtc-experiment.com/ffmpeg/|Ffmpeg.js Audio/Video Encoding/Transcoding/Muxing}
+@see {@link https://github.com/muaz-khan/Ffmpeg.js|muaz-khan/Ffmpeg.js: Ffmpeg.js demos, both for browsers and node.js}
+
+@see {@link http://bgrins.github.io/videoconverter.js/|videoconverter.js - Convert Videos In Your Web Browser}
+@see {@link http://bgrins.github.io/videoconverter.js/demo/|videoconverter.js - Convert Videos In Your Web Browser}
+@see {@link https://github.com/bgrins/videoconverter.js|bgrins/videoconverter.js: Convert videos in your browser}
+@see {@link https://github.com/bgrins/videoconverter.js/blob/master/build/ffmpeg.js|videoconverter.js/ffmpeg.js at master · bgrins/videoconverter.js}
+@see {@link https://github.com/bgrins/videoconverter.js/blob/master/build/ffmpeg-all-codecs.js|videoconverter.js/ffmpeg-all-codecs.js at master · bgrins/videoconverter.js}
+
+@see {@link https://codeseven.github.io/toastr/|Toastr by CodeSeven}
+@see {@link https://github.com/CodeSeven/toastr|CodeSeven/toastr: Simple javascript toast notifications}
+
+@see {@link https://getemoji.com/|😋 Get Emoji — All Emojis to ✂️ Copy and 📋 Paste 👌}
+@see {@link http://classic.getemoji.com/|😀 Emoji Classic ✂ Copy and 📋 Paste 👌 Emojis on Windows 7, Android 4.2}
+@see {@link http://heartemoji.com/|💟 Heart Emoji 😍 All the Heart Emoji Symbols 💙}
+@see {@link https://emojipedia.org/|📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍}
+
