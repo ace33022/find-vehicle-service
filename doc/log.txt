@@ -1122,4 +1122,6 @@ http://0.peerjs.com:9000/peerjs/id?ts=15553272823480.28353789695429876
 
 @see {@link https://github.com/peers/peerjs-server/issues/111|Provide cloud peerjs server over https/wss · Issue #111 · peers/peerjs-server}
 @see {@link https://github.com/peers/peerjs-server/issues/90|HTTPS enforcement on Chrome 47 · Issue #90 · peers/peerjs-server}
+@see {@link https://github.com/peers/peerjs/issues/449|ERR_SSL_PROTOCOL_ERROR · Issue #449 · peers/peerjs}
 
+GET https://0.peerjs.com:9000/peerjs/id?ts=15554112112380.15080650584401867 net::ERR_SSL_PROTOCOL_ERROR

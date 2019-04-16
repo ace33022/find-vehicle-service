@@ -637,6 +637,14 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 										
 										"debug": 2,
 										"secure": true,
+										"port": 443
+									});
+										
+									/*
+									peer = new Peer(null, {
+										
+										"debug": 2,
+										"secure": true,
 										"config": {
 										
 											"iceServers": [
@@ -663,6 +671,7 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 											]
 										}
 									});
+									*/
 									
 									peer.on('disconnected', function() { 
 									
