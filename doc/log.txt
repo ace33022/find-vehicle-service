@@ -96,6 +96,12 @@
 @see {@link https://testrtc.com/|Homepage • testRTC}
 @see {@link https://testrtc.com/webrtc-api-trace/|Your best WebRTC debugging buddy? The webrtc-internals API trace • testRTC}
 
+@see {@link https://cjb.github.io/serverless-webrtc/serverless-webrtc.html|WebRTC p2p data}
+@see {@link https://github.com/cjb/serverless-webrtc/|cjb/serverless-webrtc: A demo of using WebRTC with no signaling server.}
+
+@see {@link https://xbsoftware.com/webrtc-applications-development/|WebRTC Application Development Services - XB Software}
+@see {@link https://blog.printf.net/articles/2013/05/17/webrtc-without-a-signaling-server/|Chris Ball » WebRTC without a signaling server}
+
 @see {@link https://appr.tc/|AppRTC}
 @see {@link https://github.com/webrtc/apprtc|webrtc/apprtc: The video chat demo app based on WebRTC. This project is currently on HOLD with minimal maintenance.}
 
@@ -164,10 +170,29 @@
 @see {@link https://stackoverflow.com/questions/53325793/no-audio-from-webrct-stream-on-chrome-without-audio-tag|javascript - No audio from WebRCT stream on chrome without audio tag - Stack Overflow}
 @see {@link https://stackoverflow.com/questions/24287054/chrome-wont-play-webaudio-getusermedia-via-webrtc-peer-js|javascript - Chrome won't play WebAudio getUserMedia via WebRTC/Peer.js - Stack Overflow}
 
+@see {@link https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/|WebRTC in the real world: STUN, TURN and signaling - HTML5 Rocks}
+
+@see {@link https://github.com/gladkikhartem/koshare-router|gladkikhartem/koshare-router: Free signaling server for public use}
+
+@see {@link https://nextrtc.org/|NextRTC – signaling server written in java – Everything that you need to add WebRTC to your Java based application!}
+@see {@link https://github.com/mslosarz/nextrtc-signaling-server/|mslosarz/nextrtc-signaling-server: NextRTC is simple WebRTC signaling server written in java. It provides signal exchange and easy to integrate API}
+
+@see {@link https://saltyrtc.org/|Home}
+@see {@link https://github.com/saltyrtc/saltyrtc-meta|saltyrtc/saltyrtc-meta: Protocol description and organisational information for SaltyRTC implementations.}
+@see {@link https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md|saltyrtc-meta/Protocol.md at master · saltyrtc/saltyrtc-meta}
+
 @see {@link http://numb.viagenie.ca/|Numb STUN/TURN Server}
 @see {@link http://www.turnservers.com/|turnservers.com}
 
+@see {@link http://turnserver.open-sys.org/downloads/|Index of /downloads}
+
 @see {@link https://gist.github.com/yetithefoot/7592580|STUN+TURN servers list}
+
+@see {@link https://xirsys.com/|WebRTC TURN Server Cloud Provider - Xirsys}
+@see {@link https://xirsys.com/peerjs/|Xirsys - WebRTC Server}
+@see {@link https://xirsys.com/simplewebrtc/|Xirsys - WebRTC Server Cloud}
+@see {@link https://github.com/xirdev/signalmaster|xirdev/signalmaster: simple socket.io server for webrtc signaling}
+@see {@link https://github.com/xirsys/xirsys-examples-v3|xirsys/xirsys-examples-v3: Xirsys Examples for V3 API}
 
 @see {@link https://code.google.com/archive/p/rfc5766-turn-server/|Google Code Archive - Long-term storage for Google Code Project Hosting.}
 @see {@link https://github.com/coturn/rfc5766-turn-server/|coturn/rfc5766-turn-server: Import of https://code.google.com/p/rfc5766-turn-server/}
@@ -234,6 +259,11 @@
 @comment https://cdn.jsdelivr.net/npm/peerjs@0.3.20/dist/peer.min.js
 @comment https://cdn.jsdelivr.net/npm/peerjs@0.3.24/dist/peerjs.min.js
 
+@see {@link https://c9.io/tc1000/peerjs-server|tc1000/peerjs-server}
+
+@see {@link https://hub.docker.com/r/tsujio/peerjs-server/|tsujio/peerjs-server - Docker Hub}
+@see {@link https://github.com/tsujio/peerjs-server|tsujio/peerjs-server: Server for PeerJS}
+
 @see {@link https://gist.github.com/1000ch/8054185|WebRTC video chat with PeerJS.}
 
 @see {@link https://github.com/iakashpaul/peerjsipx|iakashpaul/peerjsipx}
@@ -259,10 +289,7 @@
 @see {@link https://blog.csdn.net/liulangdeyue/article/details/38091803|Peer.js基本介绍 - liulangdeyue的专栏 - CSDN博客}
 @see {@link https://blog.csdn.net/mnhn456/article/details/78872906|peerjs填坑 - 看风听雨 - CSDN博客}
 
-@see {@link https://github.com/peers/peerjs/issues/423|Peerjs does not work · Issue #423 · peers/peerjs}
-@see {@link https://github.com/peers/peerjs/issues/147|The "options" in "peer.call(id, stream, options) " should be documented. · Issue #147 · peers/peerjs}
-
-@see {@link https://github.com/peers/peerjs/pull/126|Added missing documentation entries for attributes on DataConnection obj... by sblaurock · Pull Request #126 · peers/peerjs}
+@see {@link https://laike9m.com/blog/a-tutorial-on-using-peerjs-in-node-webkit-app,57/|A tutorial on using PeerJs in node-webkit app - laike9m's blog}
 
 @see {@link https://bugs.chromium.org/p/webrtc/issues/detail?id=2681|2681 - No video between PC and PC by PeerJS - webrtc - Monorail}
 
@@ -272,6 +299,14 @@
 @see {@link https://stackoverflow.com/questions/35510446/why-is-my-peerjs-audio-chat-app-not-working|javascript - Why is my PeerJS audio chat app not working? - Stack Overflow}
 @see {@link https://stackoverflow.com/questions/43741239/webrtc-and-peerjs-how-to-play-a-stream-without-starting-his-own-stream|webrtc and peerjs: how to play a stream without starting his own stream? - Stack Overflow}
 @see {@link https://stackoverflow.com/questions/52616128/peerjs-is-it-possible-to-simultaneously-transmit-calls-and-data|javascript - PeerJS: Is it possible to simultaneously transmit calls and data? - Stack Overflow}
+
+@see {@link https://www.simplewebrtc.com/|SimpleWebRTC}
+@see {@link https://github.com/legastero/stanza.io|legastero/stanza.io: Modern XMPP in the browser, with a JSON API}
+
+@see {@link https://github.com/andyet/|&yet}
+@see {@link https://github.com/andyet/SimpleWebRTC|andyet/SimpleWebRTC: Simplest WebRTC ever}
+@see {@link https://github.com/andyet/SimpleWebRTC/issues/272|Peer MediaStream with WebAudio not working · Issue #272 · andyet/SimpleWebRTC}
+@see {@link https://github.com/andyet/SimpleWebRTC/issues/386|Is there any free and stable Signaling server out there? · Issue #386 · andyet/SimpleWebRTC}
 
 @see {@link https://github.com/feross/simple-peer|feross/simple-peer: 📡 Simple WebRTC video/voice and data channels}
 
@@ -343,8 +378,20 @@
 @see {@link https://demo.easyrtc.com/demos/index.html|EasyRTC - Landing Page}
 @see {@link https://demo.easyrtc.com/demos/demo_audio_video_simple.html|EasyRTC Demo: Simple Video+Audio}
 
+@see {@link https://www.onsip.com/|Cloud Phone System & CPaaS | OnSIP}
+@see {@link https://info.onsip.com/webrtc-signaling-server|WebRTC Signaling Server}
+
+@see {@link https://tokbox.com/|OpenTok | WebRTC Platform for Video, Voice and Messaging from TokBox}
+@see {@link https://www.twilio.com/|Twilio - Communication APIs for SMS, Voice, Video and Authentication}
+
+@see {@link https://openpeer.org/|Open Peer – Real-time Communications API}
+@see {@link https://github.com/openpeer|Open Peer}
+
 @see {@link https://xbsoftware.com/blog/free-webrtc-example-with-webix-and-easyrtc/|Free WebRTC example with Webix and easyRTC - XB Software}
 @see {@link https://www.quora.com/Which-is-the-best-WebRTC-JavaScript-library-PeerJS-or-EasyRTC|Which is the best WebRTC JavaScript library, PeerJS or EasyRTC? - Quora}
+
+@see {@link https://matrix.org/blog/index|Home | Matrix.org}
+@see {@link https://crypto.stanford.edu/flashproxy/|Flash Proxies}
 
 @see {@link https://bootsnipp.com/snippets/nNg98|Bootstrap Snippet Elegant Bootstrap 4 message chat box template using HTML CSS Bootstrap jQuery}
 @see {@link https://bootsnipp.com/snippets/ZlkBn|Bootstrap Snippet Chat (by Pavel Komiagin) using HTML CSS jQuery}
@@ -1039,89 +1086,6 @@ padding-bottom: 5px;padding-top:15px;
 
 @see {@link https://recordrtc.org/|RecordRTC: Home}
 
-@see {@link https://1stwebdesigner.com/|1stWebDesigner - Helping You Build a Better Web}
-@see {@link https://1stwebdesigner.com/web-design-courses-online/|The Top 20 Web Design Courses You Should Know About}
-@see {@link https://1stwebdesigner.com/best-css-tools/|10 Best CSS Tools & Web-Based Apps For Developers - 1stWebDesigner}
-
-@see {@link https://postcss.org/|PostCSS - a tool for transforming CSS with JavaScript}
-@see {@link https://github.com/postcss/postcss|postcss/postcss: Transforming styles with JS plugins}
-
 @see {@link https://ithelp.ithome.com.tw/users/20089358/ironman/1923|即時網路影音開發攻略(小白本)}
 
-@see {@link https://stackoverflow.com/questions/49311886/how-to-get-e-parameter-array-in-dogete-funtion-in-google-app-script-while-su|How to get e.parameter.array() in doGet(e) funtion in Google app script while submitting an array via HTML Form - Stack Overflow}
 
-@see {@link https://hub.docker.com/|Docker Hub}
-@see {@link https://www.heroku.com/|Cloud Application Platform | Heroku}
-
-@see {@link https://code.visualstudio.com/|Visual Studio Code - Code Editing. Redefined}
-
-@see {@link https://matrix.org/blog/index|Home | Matrix.org}
-
-# peerjs free server
-# free signaling server
-
-@see {@link https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/|WebRTC in the real world: STUN, TURN and signaling - HTML5 Rocks}
-
-@see {@link https://nextrtc.org/|NextRTC – signaling server written in java – Everything that you need to add WebRTC to your Java based application!}
-@see {@link https://github.com/mslosarz/nextrtc-signaling-server/|mslosarz/nextrtc-signaling-server: NextRTC is simple WebRTC signaling server written in java. It provides signal exchange and easy to integrate API}
-
-@see {@link https://saltyrtc.org/|Home}
-@see {@link https://github.com/saltyrtc/saltyrtc-meta|saltyrtc/saltyrtc-meta: Protocol description and organisational information for SaltyRTC implementations.}
-@see {@link https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md|saltyrtc-meta/Protocol.md at master · saltyrtc/saltyrtc-meta}
-
-@see {@link https://www.onsip.com/|Cloud Phone System & CPaaS | OnSIP}
-@see {@link https://info.onsip.com/webrtc-signaling-server|WebRTC Signaling Server}
-
-@see {@link https://tokbox.com/|OpenTok | WebRTC Platform for Video, Voice and Messaging from TokBox}
-@see {@link https://www.twilio.com/|Twilio - Communication APIs for SMS, Voice, Video and Authentication}
-
-@see {@link https://hub.docker.com/r/tsujio/peerjs-server/|tsujio/peerjs-server - Docker Hub}
-@see {@link https://github.com/tsujio/peerjs-server|tsujio/peerjs-server: Server for PeerJS}
-
-@see {@link https://c9.io/tc1000/peerjs-server|tc1000/peerjs-server}
-@see {@link https://laike9m.com/blog/a-tutorial-on-using-peerjs-in-node-webkit-app,57/|A tutorial on using PeerJs in node-webkit app - laike9m's blog}
-@see {@link https://stackoverflow.com/questions/47811047/cant-get-a-self-hosted-peerjs-server-to-work|webrtc - Can't get a self hosted peerJS server to work - Stack Overflow}
-
-@see {@link https://medium.com/@mikru168/firebase-%E4%BD%BF%E7%94%A8-hosting-%E6%9C%8D%E5%8B%99%E4%BE%86%E5%BB%BA%E7%BD%AE%E9%9D%9C%E6%85%8B%E7%B6%B2%E9%A0%81%E7%9A%84%E7%B6%B2%E7%AB%99-dc7100f2113f|【Firebase - 使用 Hosting 服務來建置靜態網站】 – 法蘭克的iOS世界 – Medium}
-
-@see {@link https://github.com/gladkikhartem/koshare-router|gladkikhartem/koshare-router: Free signaling server for public use}
-
-@see {@link https://www.simplewebrtc.com/|SimpleWebRTC}
-@see {@link https://github.com/legastero/stanza.io|legastero/stanza.io: Modern XMPP in the browser, with a JSON API}
-
-@see {@link https://github.com/andyet/|&yet}
-@see {@link https://github.com/andyet/SimpleWebRTC|andyet/SimpleWebRTC: Simplest WebRTC ever}
-@see {@link https://github.com/andyet/SimpleWebRTC/issues/272|Peer MediaStream with WebAudio not working · Issue #272 · andyet/SimpleWebRTC}
-@see {@link https://github.com/andyet/SimpleWebRTC/issues/386|Is there any free and stable Signaling server out there? · Issue #386 · andyet/SimpleWebRTC}
-
-@see {@link https://xirsys.com/|WebRTC TURN Server Cloud Provider - Xirsys}
-@see {@link https://xirsys.com/peerjs/|Xirsys - WebRTC Server}
-@see {@link https://xirsys.com/simplewebrtc/|Xirsys - WebRTC Server Cloud}
-@see {@link https://github.com/xirdev/signalmaster|xirdev/signalmaster: simple socket.io server for webrtc signaling}
-@see {@link https://github.com/xirsys/xirsys-examples-v3|xirsys/xirsys-examples-v3: Xirsys Examples for V3 API}
-
-@see {@link http://turnserver.open-sys.org/downloads/|Index of /downloads}
-
-http://0.peerjs.com:9000/peerjs/id?ts=15553272823480.28353789695429876
-
-@see {@link https://xbsoftware.com/webrtc-applications-development/|WebRTC Application Development Services - XB Software}
-@see {@link https://blog.printf.net/articles/2013/05/17/webrtc-without-a-signaling-server/|Chris Ball » WebRTC without a signaling server}
-
-@see {@link https://openpeer.org/|Open Peer – Real-time Communications API}
-@see {@link https://github.com/openpeer?tab=repositories|Open Peer}
-
-@see {@link https://www.torproject.org/|Tor Project | Anonymity Online}
-
-@see {@link https://crypto.stanford.edu/flashproxy/|Flash Proxies}
-
-@see {@link https://cjb.github.io/serverless-webrtc/serverless-webrtc.html|WebRTC p2p data}
-@see {@link https://github.com/cjb/serverless-webrtc/|cjb/serverless-webrtc: A demo of using WebRTC with no signaling server.}
-
-
-# peerjs without peerjs-server
-
-@see {@link https://github.com/peers/peerjs-server/issues/111|Provide cloud peerjs server over https/wss · Issue #111 · peers/peerjs-server}
-@see {@link https://github.com/peers/peerjs-server/issues/90|HTTPS enforcement on Chrome 47 · Issue #90 · peers/peerjs-server}
-@see {@link https://github.com/peers/peerjs/issues/449|ERR_SSL_PROTOCOL_ERROR · Issue #449 · peers/peerjs}
-
-GET https://0.peerjs.com:9000/peerjs/id?ts=15554112112380.15080650584401867 net::ERR_SSL_PROTOCOL_ERROR

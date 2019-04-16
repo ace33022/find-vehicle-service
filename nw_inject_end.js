@@ -623,6 +623,8 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 								'資料處理中，請稍候‧‧‧',
 								function(closeMarqueebar) {
 								
+									var peerOptions = {};
+								
 									firebase.initializeApp({
 
 										"apiKey": "AIzaSyBg5LJIDwF99Pg3JcwSvXKZT72XeW868N8",
@@ -633,45 +635,47 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 										"messagingSenderId": "749991636936"
 									});
 							
-									peer = new Peer(null, {
-										
-										"debug": 2,
-										"secure": true,
-										"port": 443
-									});
-										
-									/*
-									peer = new Peer(null, {
-										
-										"debug": 2,
-										"secure": true,
-										"config": {
-										
-											"iceServers": [
-											
-												{"url": "stun:stun1.l.google.com:19302"},
-												{"url": "stun:stun2.l.google.com:19302"},
-												{"url": "stun:stun3.l.google.com:19302"},
-												{"url": "stun:stun4.l.google.com:19302"},
-												{
-													"url": "turn:numb.viagenie.ca",
-													"credential": "muazkh",
-													"username": "webrtc@live.com"
-												},
-												{
-													"url": "turn:192.158.29.39:3478?transport=udp",
-													"credential": "JZEOEt2V3Qb0y27GRntt2u2PAYA=",
-													"username": "28224511:1379330808"
-												},
-												{
-													"url": "turn:192.158.29.39:3478?transport=tcp",
-													"credential": "JZEOEt2V3Qb0y27GRntt2u2PAYA=",
-													"username": "28224511:1379330808"
-												}
-											]
+									/**
+									 *
+									 * @see {@link https://github.com/peers/peerjs/pull/126|Added missing documentation entries for attributes on DataConnection obj... by sblaurock · Pull Request #126 · peers/peerjs}
+									 *
+									 * @see {@link https://github.com/peers/peerjs/issues/147|The "options" in "peer.call(id, stream, options) " should be documented. · Issue #147 · peers/peerjs}
+									 * @see {@link https://github.com/peers/peerjs/issues/423|Peerjs does not work · Issue #423 · peers/peerjs}
+									 * @see {@link https://github.com/peers/peerjs/issues/449|ERR_SSL_PROTOCOL_ERROR · Issue #449 · peers/peerjs}
+									 *
+									 * @see {@link https://github.com/peers/peerjs-server/issues/111|Provide cloud peerjs server over https/wss · Issue #111 · peers/peerjs-server}
+									 * @see {@link https://github.com/peers/peerjs-server/issues/90|HTTPS enforcement on Chrome 47 · Issue #90 · peers/peerjs-server}
+									 *
+									 */
+									peerOptions["debug"] = 2;
+									peerOptions["secure"] = true;
+									peerOptions["port"] = 443;
+									
+									peerOptions["config"] = {};
+									peerOptions["config"]["iceServers"] = [
+									
+										{"url": "stun:stun1.l.google.com:19302"},
+										{"url": "stun:stun2.l.google.com:19302"},
+										{"url": "stun:stun3.l.google.com:19302"},
+										{"url": "stun:stun4.l.google.com:19302"},
+										{
+											"url": "turn:numb.viagenie.ca",
+											"credential": "muazkh",
+											"username": "webrtc@live.com"
+										},
+										{
+											"url": "turn:192.158.29.39:3478?transport=udp",
+											"credential": "JZEOEt2V3Qb0y27GRntt2u2PAYA=",
+											"username": "28224511:1379330808"
+										},
+										{
+											"url": "turn:192.158.29.39:3478?transport=tcp",
+											"credential": "JZEOEt2V3Qb0y27GRntt2u2PAYA=",
+											"username": "28224511:1379330808"
 										}
-									});
-									*/
+									];
+									
+									peer = new Peer(null, peerOptions);
 									
 									peer.on('disconnected', function() { 
 									
