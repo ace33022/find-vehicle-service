@@ -15,9 +15,73 @@
 
 @see {@link https://getbootstrap.com/docs/3.3/getting-started/|Getting started · Bootstrap}
 
-@see {@link https://github.com/brave/browser-laptop-bootstrap|brave/browser-laptop-bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/starter-template/|Starter Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/navbar/|Navbar Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/navbar-fixed-top/|Fixed Top Navbar Example for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/navbar-static-top/|Static Top Navbar Example for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/non-responsive/|Non-responsive Template for Bootstrap}
+
+@see {@link https://getbootstrap.com/docs/3.3/examples/cover/|Cover Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/jumbotron/|Jumbotron Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/|Narrow Jumbotron Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/offcanvas/|Off Canvas Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/carousel/|Carousel Template for Bootstrap}
+
+@see {@link https://getbootstrap.com/docs/3.3/examples/signin/|Signin Template for Bootstrap}
+@see {@link https://getbootstrap.com/docs/3.3/examples/dashboard/|Dashboard Template for Bootstrap}
+
+@see {@link https://www.w3schools.com/bootstrap/|Bootstrap 3 Tutorial}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_templates.asp|Bootstrap Templates}
+
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_navbar.asp|Bootstrap Navigation Bar}
+
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_carousel.asp|Bootstrap Carousel}
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_buttons.asp|Bootstrap Buttons}
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_button_groups.asp|Bootstrap Button Groups}
+
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_carousel.asp|Bootstrap Carousel}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_alerts.asp|Bootstrap Alerts}
+
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_tabs_pills.asp|Bootstrap Tabs and Pills}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_panels.asp|Bootstrap Panels}
+
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_dropdowns.asp|Bootstrap Dropdowns}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_collapse.asp|Bootstrap Collapse}
+
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_affix.asp|Bootstrap Affix}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_glyphicons.asp|Bootstrap Glyphicons}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_jumbotron_header.asp|Bootstrap Jumbotron and Page Header}
+
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_badges_labels.asp|Bootstrap Badges and Labels}
+
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_forms.asp|Bootstrap Forms}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_forms_inputs.asp|Bootstrap Form Inputs}
+@see {@link https://www.w3schools.com/Bootstrap/bootstrap_forms_inputs2.asp|Bootstrap Form Inputs (more)}
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_forms_sizing.asp|Bootstrap Input Sizing}
+
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_ref_js_collapse.asp|Bootstrap JS Collapse Reference}
+@see {@link https://www.w3schools.com/bootstrap/bootstrap_ref_js_dropdown.asp|Bootstrap JS Dropdown Reference}
+
+@see {@link https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/|Bootstrap 3 Tutorial - An Ultimate Guide for Beginners}
+@see {@link https://www.tutorialrepublic.com/twitter-bootstrap-tutorial/bootstrap-input-groups.php|How to Use Bootstrap 3 Input Group Component - Tutorial Republic}
+
+@see {@link https://startbootstrap.com/|Start Bootstrap - Free Bootstrap Themes and Templates}
+@see {@link https://startbootstrap.com/template-overviews/bare/|Bare - Bootstrap Starter Template - Start Bootstrap}
+@see {@link https://github.com/BlackrockDigital/startbootstrap-bare|BlackrockDigital/startbootstrap-bare: A bare Bootstrap HTML starter template for rapid development - created by Start Bootstrap}
+@see {@link https://startbootstrap.com/template-overviews/creative/|Creative - One Page Bootstrap Theme - Start Bootstrap}
+@see {@link https://startbootstrap.com/template-overviews/shop-item/|Shop Item - Bootstrap Ecommerce Shop Item Template - Start Bootstrap}
+@see {@link https://github.com/BlackrockDigital/startbootstrap-shop-item|BlackrockDigital/startbootstrap-shop-item: A shop item Bootstrap HTML template created by Start Bootstrap}
+@see {@link https://startbootstrap.com/template-overviews/heroic-features/|Heroic Features - Free Bootstrap Template - Start Bootstrap}
+@see {@link https://github.com/BlackrockDigital/startbootstrap-heroic-features|BlackrockDigital/startbootstrap-heroic-features: A Bootstrap HTML homepage template with feature boxes - created by Start Bootstrap}
+
+@see {@link https://bootswatch.com/|Bootswatch: Free themes for Bootstrap}
+
+@see {@link http://bootstrap-notify.remabledesigns.com/|Bootstrap Notify v3.1.3}
+@see {@link https://github.com/mouse0270/bootstrap-notify|mouse0270/bootstrap-notify: Turns standard Bootstrap alerts into "Growl-like" notifications.}
 
 @see {@link http://www.samrayner.com/bootstrap-side-navbar/|Bootstrap 3 Side Navbar}
+
+@see {@link https://github.com/brave/browser-laptop-bootstrap|brave/browser-laptop-bootstrap}
 
 @see {@link https://codepen.io/antoncabon/pen/WxQLbM|30+ Bootstrap Modal Animation Effects}
 @see {@link https://www.uplabs.com/posts/30-bootstrap-modal-animation-effects|30+ Bootstrap Modal Animation Effects - Up}
@@ -54,6 +118,9 @@
 @see {@link https://bulma.io/|Bulma: Free, open source, & modern CSS framework based on Flexbox}
 @see {@link https://github.com/jgthms/bulma|jgthms/bulma: Modern CSS framework based on Flexbox}
 @see {@link https://cdnjs.com/libraries/bulma|bulma - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
+
+@see {@link https://purecss.io/|Pure}
+@see {@link https://github.com/pure-css/pure|pure-css/pure: A set of small, responsive CSS modules that you can use in every web project.}
 
 @see {@link https://imperavi.com/|Imperavi}
 @see {@link https://imperavi.com/kube/|Kube CSS & JS Framework}
@@ -186,3 +253,8 @@
 @see {@link http://heartemoji.com/|💟 Heart Emoji 😍 All the Heart Emoji Symbols 💙}
 @see {@link https://emojipedia.org/|📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍}
 
+@see {@link https://sierra-library.github.io/|Sierra: The smallest and lightest SCSS library}
+@see {@link https://github.com/sierra-library/sierra|sierra-library/sierra: Sierra SCSS library}
+
+@see {@link https://webcode.tools/|The Ultimate Website Code Generator}
+@see {@link https://webcode.tools/css-generator/|The Ultimate CSS Generator}

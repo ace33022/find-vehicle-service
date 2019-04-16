@@ -33,32 +33,7 @@
 @see {@link https://github.com/antimatter15/jsgif|antimatter15/jsgif: Save a HTML5 Canvas to GIF and Animations. A port of as3gif GIFPlayer to JS}
 @see {@link https://antimatter15.com/|stuff by kevin kwok}
 @see {@link https://code.google.com/archive/p/as3gif/|Google Code Archive - Long-term storage for Google Code Project Hosting.}
-
-@see {@link https://leafletjs.com/|Leaflet - a JavaScript library for interactive maps}
-@see {@link https://leafletjs.com/reference-1.4.0.html|Documentation - Leaflet - a JavaScript library for interactive maps}
-
-@see {@link https://leafletjs.com/examples/layers-control/|Layer Groups and Layers Control - Leaflet - a JavaScript library for interactive maps}
-@see {@link https://leafletjs.com/examples/custom-icons/|Markers With Custom Icons - Leaflet - a JavaScript library for interactive maps}
 	
-@see {@link https://www.tutorialspoint.com/leafletjs|LeafletJS Tutorial}
-	
-@see {@link http://cliffcloud.github.io/Leaflet.EasyButton/v1/|Leaflet.EasyButton}
-@see {@link http://danielmontague.com/projects/easyButton.js/v2/examples/|EasyButton Demo | Daniel Montague}
-@see {@link https://github.com/CliffCloud/Leaflet.EasyButton|CliffCloud/Leaflet.EasyButton: leaflet control buttons with icons and callbacks}
-
-@see {@link http://filipzava.github.io/leaflet-control-bar/|leaflet-control-bar}
-@see {@link https://github.com/filipzava/leaflet-control-bar|filipzava/leaflet-control-bar: A simple leaflet control bar plugin.}
-
-@see {@link http://esri.github.io/esri-leaflet/|Esri Leaflet}
-@see {@link https://github.com/Esri/esri-leaflet|Esri/esri-leaflet: A lightweight set of tools for working with ArcGIS services in Leaflet.}
-
-@see {@link https://github.com/w8r/Leaflet.Tooltip/|w8r/Leaflet.Tooltip: Movable tooltips for leaflet 1.0.0}
-@see {@link http://w8r.name/Leaflet.Tooltip/example/|Leaflet.Tooltip}
-
-@see {@link https://codepen.io/mmsmdali/pen/KqjNPN|Marker, Popup, Tooltip using Leaflet}
-
-@see {@link https://stackoverflow.com/questions/47697215/trigger-click-on-leaflet-marker|javascript - Trigger click on leaflet marker - Stack Overflow}
-
 @see {@link https://imququ.com/post/html5-live-player-1.html|HTML5 视频直播（一） | JerryQu 的小站}
 @see {@link https://imququ.com/post/html5-live-player-2.html|HTML5 视频直播（二） | JerryQu 的小站}
 @see {@link https://imququ.com/post/html5-live-player-3.html|HTML5 视频直播（三） | JerryQu 的小站}
@@ -123,6 +98,8 @@
 
 @see {@link https://appr.tc/|AppRTC}
 @see {@link https://github.com/webrtc/apprtc|webrtc/apprtc: The video chat demo app based on WebRTC. This project is currently on HOLD with minimal maintenance.}
+
+@see {@link https://github.com/webrtc/apprtc/issues/602|apprtc websocket server down? · Issue #602 · webrtc/apprtc}
 
 @see {@link https://simpl.info/rtcpeerconnection/|RTCPeerConnection}
 @see {@link https://simpl.info/rtcdatachannel/|RTCDataChannel}
@@ -192,9 +169,6 @@
 
 @see {@link https://gist.github.com/yetithefoot/7592580|STUN+TURN servers list}
 
-@see {@link https://xirsys.com/|WebRTC TURN Server Cloud Provider - Xirsys}
-@see {@link http://turnserver.open-sys.org/downloads/|Index of /downloads}
-
 @see {@link https://code.google.com/archive/p/rfc5766-turn-server/|Google Code Archive - Long-term storage for Google Code Project Hosting.}
 @see {@link https://github.com/coturn/rfc5766-turn-server/|coturn/rfc5766-turn-server: Import of https://code.google.com/p/rfc5766-turn-server/}
 @see {@link https://github.com/coturn/coturn|coturn/coturn: coturn TURN server project}
@@ -250,6 +224,7 @@
 @see {@link https://github.com/peers/peerjs|peers/peerjs: Peer-to-peer data in the browser.}
 @see {@link https://github.com/peers/peerjs-server|peers/peerjs-server: Server for PeerJS}
 @see {@link https://peerjs.com/docs.html|PeerJS Documentation}
+@see {@link https://groups.google.com/forum/#!forum/peerjs|PeerJS - Google 網上論壇}
 
 @see {@link https://cdnjs.com/libraries/peerjs|peerjs - cdnjs.com - The best FOSS CDN for web related libraries to speed up your websites!}
 @comment https://cdnjs.cloudflare.com/ajax/libs/peerjs/0.3.16/peer.min.js
@@ -363,11 +338,13 @@
 @see {@link http://www.easyrtc.com/|EasyRTC | The fastest way to build your own WebRTC apps}
 @see {@link http://www.easyrtc.com/products/easyrtc/|EasyRTC | EasyRTC}
 @see {@link http://www.easyrtc.com/products/platformrtc/|EasyRTC | PlatformRTC}
-
 @see {@link https://github.com/priologic/easyrtc|priologic/easyrtc: EasyRTC is a bundle of Open Source WebRTC joy! Our Javascript API hides the differences between Chrome and Firefox browsers and simplifies coding needed for working WebRTC apps. Signalling server using socket.io built on node.js. Tons of free code so you can build WebRTC apps in a few hours that just work. Demos include Instant messaging, Multiparty chatroom, Audio + Video, Screen sharing, Data channel Messaging and File sharing, and more.}
 
 @see {@link https://demo.easyrtc.com/demos/index.html|EasyRTC - Landing Page}
 @see {@link https://demo.easyrtc.com/demos/demo_audio_video_simple.html|EasyRTC Demo: Simple Video+Audio}
+
+@see {@link https://xbsoftware.com/blog/free-webrtc-example-with-webix-and-easyrtc/|Free WebRTC example with Webix and easyRTC - XB Software}
+@see {@link https://www.quora.com/Which-is-the-best-WebRTC-JavaScript-library-PeerJS-or-EasyRTC|Which is the best WebRTC JavaScript library, PeerJS or EasyRTC? - Quora}
 
 @see {@link https://bootsnipp.com/snippets/nNg98|Bootstrap Snippet Elegant Bootstrap 4 message chat box template using HTML CSS Bootstrap jQuery}
 @see {@link https://bootsnipp.com/snippets/ZlkBn|Bootstrap Snippet Chat (by Pavel Komiagin) using HTML CSS jQuery}
@@ -907,23 +884,6 @@ padding-bottom: 5px;padding-top:15px;
     text-align: left;
 }
 
-@see {@link https://www.w3schools.com/colors/|Colors Tutorial}
-@see {@link https://www.w3schools.com/colors/colors_names.asp|HTML Color Names}
-@see {@link https://www.w3schools.com/colors/colors_hex.asp|HTML Color Values}
-@see {@link https://www.w3schools.com/colors/colors_picker.asp|HTML Color Picker}
-@see {@link https://www.w3schools.com/colors/colors_converter.asp|Color Converter}
-
-@see {@link https://www.w3schools.com/colors/colors_hex.asp|HTML Color Values}
-@see {@link https://www.w3schools.com/colors/colors_hexadecimal.asp|Colors HEX}
-
-@see {@link https://uigradients.com/|uiGradients - Beautiful colored gradients}
-
-@see {@link https://code.tutsplus.com/zh-hant/tutorials/the-30-css-selectors-you-must-memorize--net-16048|30個你必須記住的CSS選擇器}
-@see {@link https://developer.mozilla.org/zh-TW/docs/Web/CSS/CSS_Selectors|CSS Selectors - CSS | MDN}
-
-@see {@link http://n.sfs.tw/content/index/10632|CSS 的 !important 意義 @新精讚}
-@see {@link http://xsthing.pixnet.net/blog/post/151002602-%E3%80%90css%E3%80%91margin%E3%80%81padding%E5%82%BB%E5%82%BB%E5%88%86%E4%B8%8D%E6%B8%85%E6%A5%9A|【CSS】margin、padding傻傻分不清楚 @ 經典時尚慢流行 :: 痞客邦 ::}
-
 @see {@link https://codertw.com/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/245622/|擴充套件bootstrap的modal模態框-動態新增modal框-彈出多個modal框 | 程式前沿}
 @see {@link https://blog.xuite.net/tolarku/blog/321502755-jQuery+%2B+css+%2B+dialog+%E8%BC%89%E5%85%A5%E7%B6%B2%E9%A0%81%E5%BE%8C%E8%87%AA%E5%8B%95%E8%B7%B3%E5%87%BA%E4%BB%8B%E7%B4%B9%E9%A0%81%E9%9D%A2|jQuery + css + dialog 載入網頁後自動跳出介紹頁面 @ 黃昏的甘蔗 :: 隨意窩 Xuite日誌}
 
@@ -1014,11 +974,6 @@ padding-bottom: 5px;padding-top:15px;
 @see {@link https://github.com/otalk/jingle.js|otalk/jingle.js: A generic Jingle session manager implementation, suitable for integration by other XMPP libraries.}
 @see {@link https://github.com/otalk/otalk-im-client|otalk/otalk-im-client: Stanza.io webrtc capable xmpp client <3}
 
-@see {@link https://www.simplewebrtc.com/|SimpleWebRTC}
-@see {@link https://github.com/legastero/stanza.io|legastero/stanza.io: Modern XMPP in the browser, with a JSON API}
-
-@see {@link https://github.com/andyet/SimpleWebRTC/issues/272|Peer MediaStream with WebAudio not working · Issue #272 · andyet/SimpleWebRTC}
-
 @see {@link https://getkaiwa.com/|A modern and Open Source Web client for XMPP | Kaiwa}
 @see {@link https://github.com/digicoop/kaiwa|digicoop/kaiwa: [UNMAINTAINED] A modern XMPP Web client}
 
@@ -1083,4 +1038,88 @@ padding-bottom: 5px;padding-top:15px;
 @see {@link https://github.com/muaz-khan/WebRTC-Experiment/issues/2|unable to get remote stream in case when a “remote stream” is attached by calling “peer.addStream(remoteStream) · Issue #2 · muaz-khan/WebRTC-Experiment}
 
 @see {@link https://recordrtc.org/|RecordRTC: Home}
+
+@see {@link https://1stwebdesigner.com/|1stWebDesigner - Helping You Build a Better Web}
+@see {@link https://1stwebdesigner.com/web-design-courses-online/|The Top 20 Web Design Courses You Should Know About}
+@see {@link https://1stwebdesigner.com/best-css-tools/|10 Best CSS Tools & Web-Based Apps For Developers - 1stWebDesigner}
+
+@see {@link https://postcss.org/|PostCSS - a tool for transforming CSS with JavaScript}
+@see {@link https://github.com/postcss/postcss|postcss/postcss: Transforming styles with JS plugins}
+
+@see {@link https://ithelp.ithome.com.tw/users/20089358/ironman/1923|即時網路影音開發攻略(小白本)}
+
+@see {@link https://stackoverflow.com/questions/49311886/how-to-get-e-parameter-array-in-dogete-funtion-in-google-app-script-while-su|How to get e.parameter.array() in doGet(e) funtion in Google app script while submitting an array via HTML Form - Stack Overflow}
+
+@see {@link https://hub.docker.com/|Docker Hub}
+@see {@link https://www.heroku.com/|Cloud Application Platform | Heroku}
+
+@see {@link https://code.visualstudio.com/|Visual Studio Code - Code Editing. Redefined}
+
+@see {@link https://matrix.org/blog/index|Home | Matrix.org}
+
+# peerjs free server
+# free signaling server
+
+@see {@link https://www.html5rocks.com/en/tutorials/webrtc/infrastructure/|WebRTC in the real world: STUN, TURN and signaling - HTML5 Rocks}
+
+@see {@link https://nextrtc.org/|NextRTC – signaling server written in java – Everything that you need to add WebRTC to your Java based application!}
+@see {@link https://github.com/mslosarz/nextrtc-signaling-server/|mslosarz/nextrtc-signaling-server: NextRTC is simple WebRTC signaling server written in java. It provides signal exchange and easy to integrate API}
+
+@see {@link https://saltyrtc.org/|Home}
+@see {@link https://github.com/saltyrtc/saltyrtc-meta|saltyrtc/saltyrtc-meta: Protocol description and organisational information for SaltyRTC implementations.}
+@see {@link https://github.com/saltyrtc/saltyrtc-meta/blob/master/Protocol.md|saltyrtc-meta/Protocol.md at master · saltyrtc/saltyrtc-meta}
+
+@see {@link https://www.onsip.com/|Cloud Phone System & CPaaS | OnSIP}
+@see {@link https://info.onsip.com/webrtc-signaling-server|WebRTC Signaling Server}
+
+@see {@link https://tokbox.com/|OpenTok | WebRTC Platform for Video, Voice and Messaging from TokBox}
+@see {@link https://www.twilio.com/|Twilio - Communication APIs for SMS, Voice, Video and Authentication}
+
+@see {@link https://hub.docker.com/r/tsujio/peerjs-server/|tsujio/peerjs-server - Docker Hub}
+@see {@link https://github.com/tsujio/peerjs-server|tsujio/peerjs-server: Server for PeerJS}
+
+@see {@link https://c9.io/tc1000/peerjs-server|tc1000/peerjs-server}
+@see {@link https://laike9m.com/blog/a-tutorial-on-using-peerjs-in-node-webkit-app,57/|A tutorial on using PeerJs in node-webkit app - laike9m's blog}
+@see {@link https://stackoverflow.com/questions/47811047/cant-get-a-self-hosted-peerjs-server-to-work|webrtc - Can't get a self hosted peerJS server to work - Stack Overflow}
+
+@see {@link https://medium.com/@mikru168/firebase-%E4%BD%BF%E7%94%A8-hosting-%E6%9C%8D%E5%8B%99%E4%BE%86%E5%BB%BA%E7%BD%AE%E9%9D%9C%E6%85%8B%E7%B6%B2%E9%A0%81%E7%9A%84%E7%B6%B2%E7%AB%99-dc7100f2113f|【Firebase - 使用 Hosting 服務來建置靜態網站】 – 法蘭克的iOS世界 – Medium}
+
+@see {@link https://github.com/gladkikhartem/koshare-router|gladkikhartem/koshare-router: Free signaling server for public use}
+
+@see {@link https://www.simplewebrtc.com/|SimpleWebRTC}
+@see {@link https://github.com/legastero/stanza.io|legastero/stanza.io: Modern XMPP in the browser, with a JSON API}
+
+@see {@link https://github.com/andyet/|&yet}
+@see {@link https://github.com/andyet/SimpleWebRTC|andyet/SimpleWebRTC: Simplest WebRTC ever}
+@see {@link https://github.com/andyet/SimpleWebRTC/issues/272|Peer MediaStream with WebAudio not working · Issue #272 · andyet/SimpleWebRTC}
+@see {@link https://github.com/andyet/SimpleWebRTC/issues/386|Is there any free and stable Signaling server out there? · Issue #386 · andyet/SimpleWebRTC}
+
+@see {@link https://xirsys.com/|WebRTC TURN Server Cloud Provider - Xirsys}
+@see {@link https://xirsys.com/peerjs/|Xirsys - WebRTC Server}
+@see {@link https://xirsys.com/simplewebrtc/|Xirsys - WebRTC Server Cloud}
+@see {@link https://github.com/xirdev/signalmaster|xirdev/signalmaster: simple socket.io server for webrtc signaling}
+@see {@link https://github.com/xirsys/xirsys-examples-v3|xirsys/xirsys-examples-v3: Xirsys Examples for V3 API}
+
+@see {@link http://turnserver.open-sys.org/downloads/|Index of /downloads}
+
+http://0.peerjs.com:9000/peerjs/id?ts=15553272823480.28353789695429876
+
+@see {@link https://xbsoftware.com/webrtc-applications-development/|WebRTC Application Development Services - XB Software}
+@see {@link https://blog.printf.net/articles/2013/05/17/webrtc-without-a-signaling-server/|Chris Ball » WebRTC without a signaling server}
+
+@see {@link https://openpeer.org/|Open Peer – Real-time Communications API}
+@see {@link https://github.com/openpeer?tab=repositories|Open Peer}
+
+@see {@link https://www.torproject.org/|Tor Project | Anonymity Online}
+
+@see {@link https://crypto.stanford.edu/flashproxy/|Flash Proxies}
+
+@see {@link https://cjb.github.io/serverless-webrtc/serverless-webrtc.html|WebRTC p2p data}
+@see {@link https://github.com/cjb/serverless-webrtc/|cjb/serverless-webrtc: A demo of using WebRTC with no signaling server.}
+
+
+# peerjs without peerjs-server
+
+@see {@link https://github.com/peers/peerjs-server/issues/111|Provide cloud peerjs server over https/wss · Issue #111 · peers/peerjs-server}
+@see {@link https://github.com/peers/peerjs-server/issues/90|HTTPS enforcement on Chrome 47 · Issue #90 · peers/peerjs-server}
 
