@@ -636,7 +636,7 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 									peer = new Peer(null, {
 										
 										"debug": 2,
-										// "secure": false,
+										"secure": true,
 										"config": {
 										
 											"iceServers": [
