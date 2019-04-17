@@ -50,7 +50,7 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 	
 	requirejs(["tw.ace33022.util.browser.FormUtils", "leaflet.EasyButton"], function(FormUtils) {
 	
-		var selfDebug = 1;
+		var selfDebug = 0;
 
 		var mapId = 'map' + Math.random().toString(36).substr(2, 6);
 		var map = null;
