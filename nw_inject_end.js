@@ -52,6 +52,8 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 	
 		var selfDebug = 0;
 
+		var tag;
+		
 		var mapId = 'map' + Math.random().toString(36).substr(2, 6);
 		var map = null;
 		
@@ -59,7 +61,20 @@ Configurations.loadJS(Configurations.requirejsFile, function() {
 		
 		jQuery('body').append('<div class="container-fluid" style="height: 100%;"></div>');
 		
-		jQuery(jQuery('.container-fluid')[0]).append('<div id="' + mapId + '" class="row" style="height: 100%;"></div>');
+		if ((location.protocol == 'http:') || (location.protocol == 'https:')) {
+
+			tag = '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>'
+					+ '<!-- find-vehicle-service -->'
+					+ '<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2244483882494685"	data-ad-slot="6952728185"	data-ad-format="auto" data-full-width-responsive="true"></ins>'
+					+ '<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>';
+			jQuery(jQuery('.container-fluid')[0]).append(tag);
+			
+			jQuery(jQuery('.container-fluid')[0]).append('<div id="' + mapId + '" class="row" style="height: 85%;"></div>');
+		}
+		else {
+		
+			jQuery(jQuery('.container-fluid')[0]).append('<div id="' + mapId + '" class="row" style="height: 100%;"></div>');
+		}
 		
 		map = L.map(mapId);
 
